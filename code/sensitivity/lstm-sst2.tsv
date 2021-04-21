@@ -1,0 +1,410 @@
+Original	LSTM_Sensitivity	BinaryS1ensitivity
+1	a beguiling splash of pastel colors and prankish comedy from disney .  </s> 	1.29900532074242	1.41175600394878
+2	a big , gorgeous , sprawling swashbuckler that delivers its diversions in grand , uncomplicated fashion .  </s> 	1.04770765724642	1.45147076835514
+3	... a boring parade of talking heads and technical gibberish that will do little to advance the linux cause .  </s> 	1.71676827759651	1.20704782632977
+4	about a manga-like heroine who fights back at her abusers , it 's energetic and satisfying if not deep and psychological .  </s> 	1.04113981368272	1.59303113029365
+5	a by-the-numbers effort that wo n't do much to enhance the franchise .  </s> 	1.19082907444154	1.76890588312064
+6	a celebration of quirkiness , eccentricity , and certain individuals ' tendency to let it all hang out , and damn the consequences .  </s> 	1.58050695185681	2.19752530381589
+7	a coda in every sense , the pinochet case splits time between a minute-by-minute account of the british court 's extradition chess game and the regime 's talking-head survivors .  </s> 	1.37084593555237	4.52937169951088
+8	a deep and meaningful film .  </s> 	1.28587118668571	1.05545242827956
+9	a densely constructed , highly referential film , and an audacious return to form that can comfortably sit among jean-luc godard 's finest work .  </s> 	1.29726687715052	1.32442709448772
+10	a difficult , absorbing film that manages to convey more substance despite its repetitions and inconsistencies than do most films than are far more pointed and clear .  </s> 	2.51322253148083	1.68995307617347
+11	a dumb movie with dumb characters doing dumb things and you have to be really dumb not to see where this is going .  </s> 	1.0936209646739	1.01265880339408
+12	a fast , funny , highly enjoyable movie .  </s> 	0.850761549244779	1.22259093781228
+13	affleck and jackson are good sparring partners .  </s> 	1.57403665414859	1.69034529862782
+14	a full world has been presented onscreen , not some series of carefully structured plot points building to a pat resolution .  </s> 	2.3558557934877	2.34805910753358
+15	a giggle a minute .  </s> 	1.11894871932148	1.66447462839167
+16	a gorgeous , high-spirited musical from india that exquisitely blends music , dance , song , and high drama .  </s> 	0.751584302755933	0.955691379034969
+17	a gorgeous , witty , seductive movie .  </s> 	0.853562298424155	0.930553704783532
+18	a great ensemble cast ca n't lift this heartfelt enterprise out of the familiar .  </s> 	1.62452235886746	3.84872697872161
+19	a gripping movie , played with performances that are all understated and touching .  </s> 	0.871029978674207	1.32377039893901
+20	... a hollow joke told by a cinematic gymnast having too much fun embellishing the misanthropic tale to actually engage it .  </s> 	1.41237283272973	1.24946017372926
+21	all-in-all , the film is an enjoyable and frankly told tale of a people who live among us , but not necessarily with us .  </s> 	2.01946244367604	1.61886201471449
+22	allows us to hope that nolan is poised to embark a major career as a commercial yet inventive filmmaker .  </s> 	0.857325489299745	1.76381984548261
+23	all that 's missing is the spontaneity , originality and delight .  </s> 	1.66432219949949	1.68584984442318
+24	although laced with humor and a few fanciful touches , the film is a refreshingly serious look at young women .  </s> 	1.20362058231018	1.56349811349399
+25	altogether , this is successful as a film , while at the same time being a most touching reconsideration of the familiar masterpiece .  </s> 	2.74518482403474	1.78790056190777
+26	a misogynistic piece of filth that attempts to pass itself off as hip , young adult entertainment .  </s> 	3.00350747066365	1.51908353309147
+27	among the year 's most intriguing explorations of alientation .  </s> 	1.4818990330453	1.22732832127095
+28	a movie that reminds us of just how exciting and satisfying the fantasy cinema can be when it 's approached with imagination and flair .  </s> 	1.14012987156957	1.27887777882988
+29	a must-see for the david mamet enthusiast and for anyone who appreciates intelligent , stylish moviemaking .  </s> 	0.901278819943485	1.22903388206619
+30	an artful , intelligent film that stays within the confines of a well-established genre .  </s> 	0.808670432074982	1.2046317607277
+31	and that leaves a hole in the center of the salton sea .  </s> 	2.05410242225623	1.82121552167879
+32	and the lesson , in the end , is nothing new .  </s> 	2.226865048262	2.23233149972849
+33	an entertaining , colorful , action-filled crime story with an intimate heart .  </s> 	0.751627043966745	1.02219325905315
+34	a nightmare date with a half-formed wit done a great disservice by a lack of critical distance and a sad trust in liberal arts college bumper sticker platitudes .  </s> 	1.09440773029477	1.11335524654327
+35	an intriguing cinematic omnibus and round-robin that occasionally is more interesting in concept than in execution .  </s> 	1.74799781240333	1.84379563362015
+36	an occasionally funny , but overall limp , fish-out-of-water story .  </s> 	2.34139339581489	1.43655506623114
+37	an operatic , sprawling picture that 's entertainingly acted , magnificently shot and gripping enough to sustain most of its 170-minute length .  </s> 	1.79453969609226	1.61763059101785
+38	another in-your-face wallow in the lower depths made by people who have never sung those blues .  </s> 	2.54341540364114	1.87985084530495
+39	an overemphatic , would-be wacky , ultimately tedious sex farce .  </s> 	3.0546197267086	1.75062568825129
+40	an unwise amalgam of broadcast news and vibes .  </s> 	1.48466856720374	1.29648125310586
+41	a painfully funny ode to bad behavior .  </s> 	0.937690201434479	1.78307667229557
+42	a pleasant enough romance with intellectual underpinnings , the kind of movie that entertains even as it turns maddeningly predictable .  </s> 	0.886885445110661	2.11328814026201
+43	a psychological thriller with a genuinely spooky premise and an above-average cast , actor bill paxton 's directing debut is a creepy slice of gothic rural americana .  </s> 	1.26027482699957	1.92825468693156
+44	a rarity among recent iranian films : it 's a comedy full of gentle humor that chides the absurdity of its protagonist 's plight .  </s> 	0.852926008247948	1.62548414510517
+45	a rewarding work of art for only the most patient and challenge-hungry moviegoers .  </s> 	0.843885976223936	1.50854918961811
+46	as a first-time director , paxton has tapped something in himself as an actor that provides frailty with its dark soul .  </s> 	1.57786936216443	1.47040775941407
+47	a sequence of ridiculous shoot - 'em - up scenes .  </s> 	1.71145931331646	2.27430578811765
+48	a solid examination of the male midlife crisis .  </s> 	0.852321202825862	1.32920688690616
+49	a solid film ... but more conscientious than it is truly stirring .  </s> 	0.89641646945622	1.54049918569624
+50	a sometimes tedious film .  </s> 	1.34051789088615	1.2978645784337
+51	as surreal as a dream and as detailed as a photograph , as visually dexterous as it is at times imaginatively overwhelming .  </s> 	1.3890798543036	1.45723883270434
+52	as the two leads , lathan and diggs are charming and have chemistry both as friends and lovers .  </s> 	1.37667869994792	1.25831143380654
+53	a string of rehashed sight gags based in insipid vulgarity .  </s> 	2.37382802499382	1.1968353446917
+54	a subtle and well-crafted ( for the most part ) chiller .  </s> 	0.852549923873524	1.54587561594768
+55	as unseemly as its title suggests .  </s> 	1.72184339902817	1.30728598373065
+56	as vulgar as it is banal .  </s> 	0.862512840488977	1.31345677664378
+57	a swashbuckling tale of love , betrayal , revenge and above all , faith .  </s> 	1.78714906552941	1.63491532518057
+58	a synthesis of cliches and absurdities that seems positively decadent in its cinematic flash and emptiness .  </s> 	1.29083372237613	2.32731947656957
+59	a tender , heartfelt family drama .  </s> 	0.942122102707475	1.37373526308185
+60	at its best , queen is campy fun like the vincent price horror classics of the '60s .  </s> 	1.82870320864327	1.85827203509775
+61	at its worst , it implodes in a series of very bad special effects .  </s> 	0.885366287301872	0.953284770468858
+62	at least one scene is so disgusting that viewers may be hard pressed to retain their lunch .  </s> 	1.60934125734074	1.44260626759656
+63	attempts by this ensemble film to impart a message are so heavy-handed that they instead pummel the audience .  </s> 	1.58084221637652	0.960904814178345
+64	at the very least , if you do n't know anything about derrida when you walk into the theater , you wo n't know much more when you leave .  </s> 	1.86700460603535	3.14043550288094
+65	at times , the suspense is palpable , but by the end there 's a sense that the crux of the mystery hinges on a technicality that strains credulity and leaves the viewer haunted by the waste of potential .  </s> 	1.91194022372543	2.00494398913043
+66	audrey tatou has a knack for picking roles that magnify her outrageous charm , and in this literate french comedy , she 's as morning-glory exuberant as she was in amélie .  </s> 	1.60262850521097	1.35469315331397
+67	a very long movie , dull in stretches , with entirely too much focus on meal preparation and igloo construction .  </s> 	2.12130924230437	1.5483849977797
+68	a very well-made , funny and entertaining picture .  </s> 	1.26918511355092	0.927487727357286
+69	a warm but realistic meditation on friendship , family and affection .  </s> 	0.919820100121237	1.13358549409775
+70	a warm , funny , engaging film .  </s> 	1.00572294298161	1.16840192977094
+71	awesome creatures , breathtaking scenery , and epic battle scenes add up to another ` spectacular spectacle . '  </s> 	0.849680283366919	1.48072366273406
+72	a woman 's pic directed with resonance by ilya chaiken .  </s> 	1.43117848529931	1.96219404513269
+73	bad .  </s> 	0.648669782183927	0.824962358364114
+74	basically a static series of semi-improvised ( and semi-coherent ) raps between the stars .  </s> 	0.866207147048739	1.59967324475637
+75	blanchett 's performance confirms her power once again .  </s> 	0.866867458848496	1.65905839391151
+76	bleakly funny , its characters all the more touching for refusing to pity or memorialize themselves .  </s> 	1.79303878610647	1.45379292259751
+77	brilliantly explores the conflict between following one 's heart and following the demands of tradition .  </s> 	0.741516658933886	0.970319011234729
+78	broomfield turns his distinctive ` blundering ' style into something that could really help clear up the case .  </s> 	1.95043003389505	2.45502426204934
+79	/ but daphne , you 're too buff / fred thinks he 's tough / and velma - wow , you 've lost weight !  </s> 	1.59499393420146	3.22036188230855
+80	but it could have been worse .  </s> 	1.28623001710529	1.25266375458118
+81	by getting myself wrapped up in the visuals and eccentricities of many of the characters , i found myself confused when it came time to get to the heart of the movie .  </s> 	1.57787066981337	2.18280147557738
+82	byler reveals his characters in a way that intrigues and even fascinates us , and he never reduces the situation to simple melodrama .  </s> 	1.11894830668872	1.32154827435009
+83	characters still need to function according to some set of believable and comprehensible impulses , no matter how many drugs they do or how much artistic license avary employs .  </s> 	1.76587422287538	2.3981408804644
+84	chilling , well-acted , and finely directed : david jacobson 's dahmer .  </s> 	0.872488648002104	1.24094578224955
+85	chokes on its own depiction of upper-crust decorum .  </s> 	2.39170013908366	0.997943229712406
+86	combining quick-cut editing and a blaring heavy metal much of the time , beck seems to be under the illusion that he 's shooting the latest system of a down video .  </s> 	1.8524449835079	2.60323270542824
+87	comes ... uncomfortably close to coasting in the treads of the bicycle thief .  </s> 	2.0345571168386	2.16871217088224
+88	complete lack of originality , cleverness or even visible effort  </s> 	0.740200109518289	0.968441104578766
+89	confirms the nagging suspicion that ethan hawke would be even worse behind the camera than he is in front of it .  </s> 	0.996511679644875	1.8637002126907
+90	corny , schmaltzy and predictable , but still manages to be kind of heartwarming , nonetheless .  </s> 	1.74247694359196	1.92160655235585
+91	dazzles with its fully-written characters , its determined stylishness ( which always relates to characters and story ) and johnny dankworth 's best soundtrack in years .  </s> 	1.45066572108312	1.00566510036649
+92	delivers the same old same old , tarted up with latin flava and turned out by hollywood playas .  </s> 	1.79902533403079	2.93595668250749
+93	` de niro ... is a veritable source of sincere passion that this hollywood contrivance orbits around . '  </s> 	2.60688063689138	3.35446621789197
+94	dense with characters and contains some thrilling moments .  </s> 	1.74930524994172	1.26847268596029
+95	... designed to provide a mix of smiles and tears , `` crossroads '' instead provokes a handful of unintentional howlers and numerous yawns .  </s> 	1.0358241952326	1.20505213961942
+96	despite its title , punch-drunk love is never heavy-handed .  </s> 	1.61599253854571	1.67244984266107
+97	despite the 2-d animation , the wild thornberrys movie makes for a surprisingly cinematic experience .  </s> 	1.52399435838487	1.5409313487208
+98	determined to be fun , and bouncy , with energetic musicals , the humor did n't quite engage this adult .  </s> 	1.05061369735607	2.44873087509416
+99	directed in a paint-by-numbers manner .  </s> 	1.39788792930914	1.58363130680224
+100	director andrew niccol ... demonstrates a wry understanding of the quirks of fame .  </s> 	1.68650019243288	1.55787612968236
+101	displaying about equal amounts of naiveté , passion and talent , beneath clouds establishes sen as a filmmaker of considerable potential .  </s> 	0.953511045738409	1.3073963485878
+102	( d ) oes n't bother being as cloying or preachy as equivalent evangelical christian movies -- maybe the filmmakers know that the likely audience will already be among the faithful .  </s> 	2.15630337733198	4.8032649865739
+103	does n't offer much besides glib soullessness , raunchy language and a series of brutal set pieces ... that raise the bar on stylized screen violence .  </s> 	1.19459635448806	2.10939624620298
+104	does paint some memorable images ... , but makhmalbaf keeps her distance from the characters  </s> 	1.22535494140235	2.48663464837738
+105	` easily my choice for one of the year 's best films . '  </s> 	1.94591895346256	2.46697592775844
+106	entertains by providing good , lively company .  </s> 	1.76681221313779	1.2141673866585
+107	escaping the studio , piccoli is warmly affecting and so is this adroitly minimalist movie .  </s> 	1.73338838192136	1.86577883983004
+108	even horror fans will most likely not find what they 're seeking with trouble every day ; the movie lacks both thrills and humor .  </s> 	1.85597834906383	1.71235387209648
+109	every nanosecond of the the new guy reminds you that you could be doing something else far more pleasurable .  </s> 	1.74871419741871	3.08534237554277
+110	exquisitely nuanced in mood tics and dialogue , this chamber drama is superbly acted by the deeply appealing veteran bouquet and the chilling but quite human berling .  </s> 	0.927553132426978	0.993910714757311
+111	falls neatly into the category of good stupid fun .  </s> 	1.28594883252906	2.56228454703951
+112	far more imaginative and ambitious than the trivial , cash-in features nickelodeon has made from its other animated tv series .  </s> 	0.796467456786808	1.94664774205873
+113	feels haphazard , as if the writers mistakenly thought they could achieve an air of frantic spontaneity by simply tossing in lots of characters doing silly stuff and stirring the pot .  </s> 	0.953086526978016	1.33166256885801
+114	feels too formulaic and too familiar to produce the transgressive thrills of early underground work .  </s> 	1.24913171197001	1.40303573878491
+115	for all its impressive craftsmanship , and despite an overbearing series of third-act crescendos , lily chou-chou never really builds up a head of emotional steam .  </s> 	2.50995035982831	3.2042606697776
+116	forced , familiar and thoroughly condescending .  </s> 	1.2511792024413	2.12502515354459
+117	for movie lovers as well as opera lovers , tosca is a real treat .  </s> 	1.0896488650557	1.51427708218827
+118	for starters , the story is just too slim .  </s> 	1.50295804288993	1.78919495871147
+119	for the most part , director anne-sophie birot 's first feature is a sensitive , extraordinarily well-acted drama .  </s> 	1.81550977699568	1.30727424801051
+120	for the most part , it 's a work of incendiary genius , steering clear of knee-jerk reactions and quick solutions .  </s> 	2.79881062210602	2.08450697161863
+121	for this reason and this reason only -- the power of its own steadfast , hoity-toity convictions -- chelsea walls deserves a medal .  </s> 	1.4016015737418	2.47448927767766
+122	fresnadillo 's dark and jolting images have a way of plying into your subconscious like the nightmare you had a week ago that wo n't go away .  </s> 	1.83948189199247	2.14201326624721
+123	fun , flip and terribly hip bit of cinematic entertainment .  </s> 	1.32913905658766	1.11981329212991
+124	good old-fashioned slash-and-hack is back !  </s> 	0.905028348941931	1.62905141477231
+125	green might want to hang onto that ski mask , as robbery may be the only way to pay for his next project .  </s> 	1.52029847642507	1.35883732272774
+126	hardly a masterpiece , but it introduces viewers to a good charitable enterprise and some interesting real people .  </s> 	1.23297355364901	2.14385472755631
+127	has a lot of the virtues of eastwood at his best .  </s> 	1.40526927121418	1.81109759108577
+128	having had the good sense to cast actors who are , generally speaking , adored by the movie-going public , khouri then gets terrific performances from them all .  </s> 	1.27379632211586	1.69445832718317
+129	hilariously inept and ridiculous .  </s> 	1.42916623059181	1.30714363156275
+130	his comedy premises are often hackneyed or just plain crude , calculated to provoke shocked laughter , without following up on a deeper level .  </s> 	1.4084290702971	2.16169126994845
+131	his last movie was poetically romantic and full of indelible images , but his latest has nothing going for it .  </s> 	1.9139792146726	1.91308443139692
+132	hit and miss as far as the comedy goes and a big ole ' miss in the way of story .  </s> 	2.08154178947657	1.37953637008731
+133	holden caulfield did it better .  </s> 	1.00886567178184	2.7762564810182
+134	holm ... embodies the character with an effortlessly regal charisma .  </s> 	1.18414775979925	1.36982633643743
+135	however it may please those who love movies that blare with pop songs , young science fiction fans will stomp away in disgust .  </s> 	2.13947097462069	1.62305887814577
+136	huston nails both the glad-handing and the choking sense of hollow despair .  </s> 	1.53139813714898	1.68494672797064
+137	i 'd have to say the star and director are the big problems here .  </s> 	1.74311987599899	2.12922759475258
+138	i do n't mind having my heartstrings pulled , but do n't treat me like a fool .  </s> 	1.78774623428346	4.38193175851725
+139	if director michael dowse only superficially understands his characters , he does n't hold them in contempt .  </s> 	1.83019087158005	4.21226181038313
+140	if steven soderbergh 's ` solaris ' is a failure it is a glorious failure .  </s> 	1.43651951397074	1.37762879870948
+141	if the movie succeeds in instilling a wary sense of ` there but for the grace of god , ' it is far too self-conscious to draw you deeply into its world .  </s> 	1.06779059702443	1.57588015711964
+142	if you believe any of this , i can make you a real deal on leftover enron stock that will double in value a week from friday .  </s> 	1.63288515195361	2.7467287973134
+143	if you can stomach the rough content , it 's worth checking out for the performances alone .  </s> 	1.66849110634057	2.20972760621826
+144	if you dig on david mamet 's mind tricks ... rent this movie and enjoy !  </s> 	1.5486349008557	1.44068695052116
+145	if you enjoy more thoughtful comedies with interesting conflicted characters ; this one is for you .  </s> 	0.91449854622707	2.60891281528343
+146	if you 're hard up for raunchy college humor , this is your ticket right here .  </s> 	1.96337523866132	2.29266211490154
+147	i had to look away - this was god awful .  </s> 	1.75463638840976	1.50207649241794
+148	i 'll bet the video game is a lot more fun than the film .  </s> 	2.16243665450801	3.38398849221401
+149	i 'm just too bored to care .  </s> 	1.30661683254089	1.21155686844323
+150	in an effort , i suspect , not to offend by appearing either too serious or too lighthearted , it offends by just being wishy-washy .  </s> 	1.72249537866232	1.57571317272501
+151	in exactly 89 minutes , most of which passed as slowly as if i 'd been sitting naked on an igloo , formula 51 sank from quirky to jerky to utter turkey .  </s> 	1.30901698466752	0.992571233452864
+152	in execution , this clever idea is far less funny than the original , killers from space .  </s> 	2.54798609657947	2.34311943491395
+153	in its best moments , resembles a bad high school production of grease , without benefit of song .  </s> 	1.91637606037608	1.15787937216448
+154	inside the film 's conflict-powered plot there is a decent moral trying to get out , but it 's not that , it 's the tension that keeps you in your seat .  </s> 	1.06408049650504	3.05053018685336
+155	instead of a hyperbolic beat-charged urban western , it 's an unpretentious , sociologically pointed slice of life .  </s> 	2.37374227863775	1.50406943765726
+156	instead of hiding pinocchio from critics , miramax should have hidden it from everyone .  </s> 	0.7840489211151	1.66452778509149
+157	in the end , we are left with something like two ships passing in the night rather than any insights into gay love , chinese society or the price one pays for being dishonest .  </s> 	2.129699088677	1.81826646907782
+158	i sympathize with the plight of these families , but the movie does n't do a very good job conveying the issue at hand .  </s> 	1.87569583306015	1.79423844125356
+159	it all adds up to good fun .  </s> 	0.892389537083503	1.39482501714698
+160	it all drags on so interminably it 's like watching a miserable relationship unfold in real time .  </s> 	1.04293900763369	1.11002155231113
+161	it all feels like a monty python sketch gone horribly wrong .  </s> 	1.07053934217831	1.37816044145353
+162	it appears that something has been lost in the translation to the screen .  </s> 	0.808793357670198	1.47635434203561
+163	it ca n't decide if it wants to be a mystery/thriller , a romance or a comedy .  </s> 	1.79316164596465	1.3772941838439
+164	it deserves to be seen by anyone with even a passing interest in the events shaping the world beyond their own horizons .  </s> 	1.47689481990163	2.83296937089446
+165	it does n't believe in itself , it has no sense of humor ... it 's just plain bored .  </s> 	1.21749185147014	1.0339316639578
+166	it feels like an after-school special gussied up with some fancy special effects , and watching its rote plot points connect is about as exciting as gazing at an egg timer for 93 minutes .  </s> 	1.04519593815901	0.995920181710167
+167	it has charm to spare , and unlike many romantic comedies , it does not alienate either gender in the audience .  </s> 	1.37257143713244	1.06000764609822
+168	it haunts you , you ca n't forget it , you admire its conception and are able to resolve some of the confusions you had while watching it .  </s> 	1.64682416876667	1.24649333596174
+169	it is great summer fun to watch arnold and his buddy gerald bounce off a quirky cast of characters .  </s> 	0.861602895239557	1.1707382020615
+170	it just may inspire a few younger moviegoers to read stevenson 's book , which is a treasure in and of itself .  </s> 	2.33907361560387	2.32584600621344
+171	it made me want to wrench my eyes out of my head and toss them at the screen .  </s> 	2.57921301780053	1.35452064266403
+172	it moves quickly , adroitly , and without fuss ; it does n't give you time to reflect on the inanity -- and the cold war datedness -- of its premise .  </s> 	2.089257434368	2.00013241982354
+173	it offers little beyond the momentary joys of pretty and weightless intellectual entertainment .  </s> 	1.2214294745457	1.27659146128548
+174	it proves quite compelling as an intense , brooding character study .  </s> 	1.73928853378054	1.40311178021744
+175	it provides an honest look at a community striving to anchor itself in new grounds .  </s> 	1.09626865253965	1.21912319595323
+176	it provides the grand , intelligent entertainment of a superior cast playing smart people amid a compelling plot .  </s> 	0.884636080489358	1.41124792988033
+177	it 's a bad thing when a movie has about as much substance as its end credits blooper reel .  </s> 	1.26267400193574	1.31009085229361
+178	it 's a charming and often affecting journey .  </s> 	1.12130801251505	1.30001178383296
+179	it 's a cookie-cutter movie , a cut-and-paste job .  </s> 	1.81300193375598	1.70790095131141
+180	it 's a grab bag of genres that do n't add up to a whole lot of sense .  </s> 	1.53110845057586	2.76158503870534
+181	it 's also , clearly , great fun .  </s> 	1.32747720087348	1.70732395256199
+182	it 's an offbeat treat that pokes fun at the democratic exercise while also examining its significance for those who take part .  </s> 	1.16984636534679	1.28584128623939
+183	it 's another stale , kill-by-numbers flick , complete with blade-thin characters and terrible , pun-laden dialogue .  </s> 	1.13212192424418	1.26659241156889
+184	it 's a remarkably solid and subtly satirical tour de force .  </s> 	0.852428820143175	1.64446544159098
+185	it 's a scattershot affair , but when it hits its mark it 's brilliant .  </s> 	2.78785246553501	1.59698445192453
+186	it 's a work by an artist so in control of both his medium and his message that he can improvise like a jazzman .  </s> 	3.10204658326149	1.82373497192199
+187	it 's difficult to imagine the process that produced such a script , but here 's guessing that spray cheese and underarm noises played a crucial role .  </s> 	2.74509655731211	4.51120527602754
+188	it seems like i have been waiting my whole life for this movie and now i ca n't wait for the sequel .  </s> 	1.38674405539121	4.31626195615467
+189	it seems to me the film is about the art of ripping people off without ever letting them consciously know you have done so  </s> 	2.19594349891097	3.2800099390525
+190	it 's great escapist fun that recreates a place and time that will never happen again .  </s> 	1.22808263040121	1.56547443352207
+191	it 's hampered by a lifetime-channel kind of plot and a lead actress who is out of her depth .  </s> 	1.51743810939876	1.41762369501266
+192	it 's hard to like a film about a guy who is utterly unlikeable , and shiner , starring michael caine as an aging british boxing promoter desperate for a taste of fame and fortune , is certainly that .  </s> 	2.43626406666001	4.59288602652176
+193	it 's just disappointingly superficial -- a movie that has all the elements necessary to be a fascinating , involving character study , but never does more than scratch the surface .  </s> 	1.45132656384595	1.43765372656028
+194	it 's like every bad idea that 's ever gone into an after-school special compiled in one place , minus those daytime programs ' slickness and sophistication ( and who knew they even had any ? ) .  </s> 	0.833622226186319	1.32228700813898
+195	it 's like watching a nightmare made flesh .  </s> 	1.34468216646195	2.5247150297413
+196	it 's not that kung pow is n't funny some of the time -- it just is n't any funnier than bad martial arts movies are all by themselves , without all oedekerk 's impish augmentation .  </s> 	1.1878631314026	1.76573978083717
+197	it 's not the ultimate depression-era gangster movie .  </s> 	2.21193728998753	2.27432898950145
+198	it 's of the quality of a lesser harrison ford movie - six days , seven nights , maybe , or that dreadful sabrina remake .  </s> 	1.82581199688047	2.19641650977583
+199	it 's one heck of a character study -- not of hearst or davies but of the unique relationship between them .  </s> 	1.24464651954725	1.75721009386763
+200	it 's one of those baseball pictures where the hero is stoic , the wife is patient , the kids are as cute as all get-out and the odds against success are long enough to intimidate , but short enough to make a dream seem possible .  </s> 	2.13355855689633	2.27204650080902
+201	it 's one pussy-ass world when even killer-thrillers revolve around group therapy sessions .  </s> 	2.56556573677345	1.51895610217032
+202	it 's played in the most straight-faced fashion , with little humor to lighten things up .  </s> 	1.97175492604547	3.71312673298651
+203	it 's refreshing to see a girl-power movie that does n't feel it has to prove anything .  </s> 	1.36367881526609	1.37624135385839
+204	it 's slow -- very , very slow .  </s> 	1.51924265188774	1.77208149469113
+205	it 's so good that its relentless , polished wit can withstand not only inept school productions , but even oliver parker 's movie adaptation .  </s> 	3.0035672195243	1.46072064545923
+206	its story may be a thousand years old , but why did it have to seem like it took another thousand to tell it to us ?  </s> 	1.30565306454955	1.33045875432228
+207	it 's the chemistry between the women and the droll scene-stealing wit and wolfish pessimism of anna chancellor that makes this `` two weddings and a funeral '' fun .  </s> 	1.72395789607932	1.4689409449636
+208	it 's worth seeing just on the basis of the wisdom , and at times , the startling optimism , of the children .  </s> 	0.953869327173191	1.24033677027823
+209	it takes a strange kind of laziness to waste the talents of robert forster , anne meara , eugene levy , and reginald veljohnson all in the same movie .  </s> 	1.36516092064168	1.61198795217113
+210	it takes talent to make a lifeless movie about the most heinous man who ever lived .  </s> 	1.87482159884971	1.39932300340394
+211	jaglom ... put ( s ) the audience in the privileged position of eavesdropping on his characters  </s> 	2.02467593006091	4.20660736703284
+212	jason x is positively anti-darwinian : nine sequels and 400 years later , the teens are none the wiser and jason still kills on auto-pilot .  </s> 	1.97648465428441	2.98116557463863
+213	just one bad idea after another .  </s> 	0.844597822119652	1.41842074033133
+214	k-19 exploits our substantial collective fear of nuclear holocaust to generate cheap hollywood tension .  </s> 	1.90289966423303	1.77873190407423
+215	( lawrence bounces ) all over the stage , dancing , running , sweating , mopping his face and generally displaying the wacky talent that brought him fame in the first place .  </s> 	1.24691194540575	3.87199831858909
+216	leigh 's film is full of memorable performances from top to bottom .  </s> 	1.04916320970364	2.35020526752571
+217	like leon , it 's frustrating and still oddly likable .  </s> 	1.87192061203294	2.56635379519709
+218	liotta put on 30 pounds for the role , and has completely transformed himself from his smooth , goodfellas image .  </s> 	2.13199612152401	2.78903688037032
+219	looks and feels like a project better suited for the small screen .  </s> 	1.24401706538559	2.35058885778165
+220	macdowell , whose wifty southern charm has anchored lighter affairs ... brings an absolutely riveting conviction to her role .  </s> 	0.802171773916176	1.79152107611406
+221	manages to be both repulsively sadistic and mundane .  </s> 	1.95253289688319	2.00392296901909
+222	manages to be sweet and wickedly satisfying at the same time .  </s> 	1.19016730822367	1.17807692069481
+223	manages to transcend the sex , drugs and show-tunes plot into something far richer .  </s> 	1.13302229427947	1.20009400237659
+224	martin and barbara are complex characters -- sometimes tender , sometimes angry -- and the delicate performances by sven wollter and viveka seldahl make their hopes and frustrations vivid .  </s> 	0.938405208760954	1.30071138771892
+225	mattei is tiresomely grave and long-winded , as if circularity itself indicated profundity .  </s> 	1.26022789795606	1.59331314886995
+226	maud and roland 's search for an unknowable past makes for a haunting literary detective story , but labute pulls off a neater trick in possession : he makes language sexy .  </s> 	1.86126014230014	1.80138891665212
+227	may reawaken discussion of the kennedy assassination but this fictional film looks made for cable rather than for the big screen .  </s> 	1.31442798638427	2.03181683624819
+228	minority report is exactly what the title indicates , a report .  </s> 	1.57300929983097	3.73450624770356
+229	montias ... pumps a lot of energy into his nicely nuanced narrative and surrounds himself with a cast of quirky -- but not stereotyped -- street characters .  </s> 	1.76870414637557	1.08202011709664
+230	moody , heartbreaking , and filmed in a natural , unforced style that makes its characters seem entirely convincing even when its script is not .  </s> 	1.84162062598253	1.11068797933842
+231	more whiny downer than corruscating commentary .  </s> 	0.71159810434742	1.26908425670914
+232	morton uses her face and her body language to bring us morvern 's soul , even though the character is almost completely deadpan .  </s> 	0.870538234963969	2.1182972665758
+233	mr. tsai is a very original artist in his medium , and what time is it there ?  </s> 	1.38462452244446	2.90552360173196
+234	my reaction in a word : disappointment .  </s> 	1.37256065245134	1.40703957217109
+235	my thoughts were focused on the characters .  </s> 	1.6761467711321	3.0503047739743
+236	( næs ) directed the stage version of elling , and gets fine performances from his two leads who originated the characters on stage .  </s> 	1.82396704592819	1.8602565111067
+237	neither parker nor donovan is a typical romantic lead , but they bring a fresh , quirky charm to the formula .  </s> 	0.763355800862934	1.38830678293353
+238	nicks , seemingly uncertain what 's going to make people laugh , runs the gamut from stale parody to raunchy sex gags to formula romantic comedy .  </s> 	1.63308385967499	3.00545097717112
+239	no one but a convict guilty of some truly heinous crime should have to sit through the master of disguise .  </s> 	1.37910449222222	1.68420987532114
+240	no sophomore slump for director sam mendes , who segues from oscar winner to oscar-winning potential with a smooth sleight of hand .  </s> 	0.986960037420997	1.2328273290302
+241	not exactly the bees knees  </s> 	1.09444673987424	1.17609741505746
+242	nothing is sacred in this gut-buster .  </s> 	1.34530274616137	2.22857658751719
+243	nothing 's at stake , just a twisty double-cross you can smell a mile away -- still , the derivative nine queens is lots of fun .  </s> 	1.79519896965537	2.68951805198101
+244	not only is undercover brother as funny , if not more so , than both austin powers films , but it 's also one of the smarter , savvier spoofs to come along in some time .  </s> 	1.27298942154793	1.25559404634948
+245	not only unfunny , but downright repellent .  </s> 	1.06982850290595	1.03658577836847
+246	not since freddy got fingered has a major release been so painful to sit through .  </s> 	0.902194010292299	1.80499053252333
+247	not since japanese filmmaker akira kurosawa 's ran have the savagery of combat and the specter of death been visualized with such operatic grandeur .  </s> 	1.48841345393241	1.39667608354803
+248	no way i can believe this load of junk .  </s> 	1.02362972531913	1.25519818632048
+249	of course , by more objective measurements it 's still quite bad .  </s> 	1.7983827441769	2.62637242716596
+250	old-form moviemaking at its best .  </s> 	1.32490439350891	1.71429665567321
+251	once ( kim ) begins to overplay the shock tactics and bait-and-tackle metaphors , you may decide it 's too high a price to pay for a shimmering picture postcard .  </s> 	2.12103892141558	1.98374031833823
+252	one of creepiest , scariest movies to come along in a long , long time , easily rivaling blair witch or the others .  </s> 	1.77957074541901	2.62226655362083
+253	one of the more intelligent children 's movies to hit theaters this year .  </s> 	1.52534849582587	1.97019233555129
+254	one of the more irritating cartoons you will see this , or any , year .  </s> 	1.27281953636258	1.42865798744056
+255	one of the smartest takes on singles culture i 've seen in a long time .  </s> 	1.60931538251826	1.87594950537573
+256	on the whole , the movie lacks wit , feeling and believability to compensate for its incessant coarseness and banality .  </s> 	1.17083102246368	1.40439625685136
+257	on this tricky topic , tadpole is very much a step in the right direction , with its blend of frankness , civility and compassion .  </s> 	0.853747336002424	1.26282773015238
+258	or doing last year 's taxes with your ex-wife .  </s> 	1.59934602640712	2.03281390175959
+259	outer-space buffs might love this film , but others will find its pleasures intermittent .  </s> 	0.783694749437906	3.91329636150848
+260	overall very good for what it 's trying to do .  </s> 	1.27612337104122	1.39116513200348
+261	pacino is brilliant as the sleep-deprived dormer , his increasing weariness as much existential as it is physical .  </s> 	0.79459688383013	2.11368182527436
+262	paid in full is so stale , in fact , that its most vibrant scene is one that uses clips from brian de palma 's scarface .  </s> 	1.29228285871124	2.11885369067817
+263	partway through watching this saccharine , easter-egg-colored concoction , you realize that it is made up of three episodes of a rejected tv show .  </s> 	1.80144391327503	1.45749856415284
+264	perceptive in its vision of nascent industrialized world politics as a new art form , but far too clunky , didactic and saddled with scenes that seem simply an ill fit for this movie .  </s> 	0.908541538726132	1.24092969874783
+265	... plays like somebody spliced random moments of a chris rock routine into what is otherwise a cliche-riddled but self-serious spy thriller .  </s> 	1.35994203366337	2.38233208767292
+266	portentous and pretentious , the weight of water is appropriately titled , given the heavy-handedness of it drama .  </s> 	1.17132889871697	2.40855592034871
+267	pumpkin means to be an outrageous dark satire on fraternity life , but its ambitions far exceed the abilities of writer adam larson broder and his co-director , tony r. abrams , in their feature debut .  </s> 	1.47430423908481	4.86100475677457
+268	pumpkin takes an admirable look at the hypocrisy of political correctness , but it does so with such an uneven tone that you never know when humor ends and tragedy begins .  </s> 	1.91854708287333	2.41625622138408
+269	rarely has leukemia looked so shimmering and benign .  </s> 	1.7320657767376	1.93524829270129
+270	rarely has so much money delivered so little entertainment .  </s> 	1.51380434798825	2.06934461833596
+271	reign of fire looks as if it was made without much thought -- and is best watched that way .  </s> 	1.6843187586382	4.18975140254617
+272	sacrifices the value of its wealth of archival foot-age with its less-than-objective stance .  </s> 	1.33397218324557	1.5493073602314
+273	sade is an engaging look at the controversial eponymous and fiercely atheistic hero .  </s> 	1.3668509462384	1.46447497246699
+274	sam mendes has become valedictorian at the school for soft landings and easy ways out .  </s> 	2.36871353720662	4.62012344476132
+275	schaeffer has to find some hook on which to hang his persistently useless movies , and it might as well be the resuscitation of the middle-aged character .  </s> 	1.11346780291921	1.27162545760207
+276	scooby dooby doo / and shaggy too / you both look and sound great .  </s> 	1.56111561788476	2.84872539020224
+277	scores no points for originality , wit , or intelligence .  </s> 	0.886214877154026	1.64556196368415
+278	seldom has a movie so closely matched the spirit of a man and his work .  </s> 	1.68108195811736	1.86185746692389
+279	slapstick buffoonery can tickle many a preschooler 's fancy , but when it costs a family of four about $ 40 to see a film in theaters , why spend money on a dog like this when you can rent a pedigree instead ?  </s> 	1.58435136625721	1.01098163150964
+280	smart , provocative and blisteringly funny .  </s> 	1.02672684831909	0.957615589675845
+281	so devoid of any kind of intelligible story that it makes films like xxx and collateral damage seem like thoughtful treatises  </s> 	0.87724030091828	1.42538196606556
+282	so , too , is this comedy about mild culture clashing in today 's new delhi .  </s> 	3.76242951895699	4.9219215454148
+283	stealing harvard aspires to comedic grand larceny but stands convicted of nothing more than petty theft of your time .  </s> 	0.866514246873254	1.92315511500421
+284	stealing harvard is evidence that the farrelly bros. -- peter and bobby -- and their brand of screen comedy are wheezing to an end , along with green 's half-hearted movie career .  </s> 	0.809952268446161	2.0344600573481
+285	suffers from the lack of a compelling or comprehensible narrative .  </s> 	0.811188031023118	0.930942873278144
+286	taylor appears to have blown his entire budget on soundtrack rights and had nothing left over for jokes .  </s> 	0.925798730673105	1.44030785634393
+287	thanks to scott 's charismatic roger and eisenberg 's sweet nephew , roger dodger is one of the most compelling variations on in the company of men .  </s> 	1.00731658513586	1.20781246994181
+288	that dogged good will of the parents and ` vain ' jia 's defoliation of ego , make the film touching despite some doldrums .  </s> 	1.83868942811441	1.53147354295315
+289	that is a compliment to kuras and miller .  </s> 	1.3930946320923	1.62982048263863
+290	that 's pure pr hype .  </s> 	1.49594611240761	2.26804346303646
+291	the acting , costumes , music , cinematography and sound are all astounding given the production 's austere locales .  </s> 	1.33113660161811	1.71617635630263
+292	the action switches between past and present , but the material link is too tenuous to anchor the emotional connections that purport to span a 125-year divide .  </s> 	2.59190316968559	1.5852203919412
+293	the band 's courage in the face of official repression is inspiring , especially for aging hippies ( this one included ) .  </s> 	0.943413928687622	1.62284321889036
+294	the best film about baseball to hit theaters since field of dreams .  </s> 	1.05325437722668	1.32551699377855
+295	the best revenge may just be living well because this film , unlike other dumas adaptations , is far more likened to a treasure than a lengthy jail sentence .  </s> 	1.87942467740778	3.62215775304306
+296	the best that can be said about the work here of scottish director ritchie ... is that he obviously does n't have his heart in it .  </s> 	1.30728205115786	3.46015807989651
+297	the character of zigzag is not sufficiently developed to support a film constructed around him .  </s> 	2.32344834432595	1.78759571606813
+298	the chateau cleverly probes the cross-cultural differences between gauls and yanks .  </s> 	1.73845406083707	1.78348348322724
+299	the cold turkey would 've been a far better title .  </s> 	0.751118120500173	1.51628023837771
+300	the continued good chemistry between carmen and juni is what keeps this slightly disappointing sequel going , with enough amusing banter -- blessedly curse-free -- to keep both kids and parents entertained .  </s> 	1.29082113822295	1.0057891756515
+301	the draw ( for `` big bad love '' ) is a solid performance by arliss howard .  </s> 	0.847573194071218	2.01774466941308
+302	the emotions are raw and will strike a nerve with anyone who 's ever had family trauma .  </s> 	1.23614320598811	1.07957589458279
+303	the end result is a film that 's neither .  </s> 	1.71799227633269	2.96599930315153
+304	the entire movie is about a boring , sad man being boring and sad .  </s> 	1.30506110437182	1.39246856936268
+305	the film flat lines when it should peak and is more missed opportunity and trifle than dark , decadent truffle .  </s> 	0.821595232072853	0.996788868151706
+306	the film is quiet , threatening and unforgettable .  </s> 	1.37524746320777	1.55772278683629
+307	the film may appear naked in its narrative form ... but it goes deeper than that , to fundamental choices that include the complexity of the catholic doctrine  </s> 	1.23798988222006	2.72977351177924
+308	the film 's performances are thrilling .  </s> 	1.61083741900731	1.59345351326147
+309	... the film suffers from a lack of humor ( something needed to balance out the violence ) ...  </s> 	1.46704275356769	1.1488054484796
+310	the film tries too hard to be funny and tries too hard to be hip .  </s> 	1.09982157751814	0.972739247016758
+311	the film tunes into a grief that could lead a man across centuries .  </s> 	1.26628951082987	1.68929837337888
+312	the format gets used best ... to capture the dizzying heights achieved by motocross and bmx riders , whose balletic hotdogging occasionally ends in bone-crushing screwups .  </s> 	0.887415887667242	3.45747530886382
+313	the heavy-handed film is almost laughable as a consequence .  </s> 	1.02005165706809	1.66119420940481
+314	the humor is forced and heavy-handed , and occasionally simply unpleasant .  </s> 	1.21026699166215	1.17889171852176
+315	the iditarod lasts for days - this just felt like it did .  </s> 	2.26297757633913	3.28743809467297
+316	thekids will probably stay amused at the kaleidoscope of big , colorful characters .  </s> 	1.41324258439413	2.35358649329489
+317	the lower your expectations , the more you 'll enjoy it .  </s> 	1.59060924583553	1.95857829094715
+318	the mesmerizing performances of the leads keep the film grounded and keep the audience riveted .  </s> 	0.854622607288308	0.940886032759212
+319	the most hopelessly monotonous film of the year , noteworthy only for the gimmick of being filmed as a single unbroken 87-minute take .  </s> 	1.46411539026453	1.32115151677368
+320	the movie achieves as great an impact by keeping these thoughts hidden as ... ( quills ) did by showing them .  </s> 	1.27124724365234	2.19157665797229
+321	the movie fails to live up to the sum of its parts .  </s> 	1.24466737258565	1.21047097745646
+322	the movie is beautiful to behold and engages one in a sense of epic struggle -- inner and outer -- that 's all too rare in hollywood 's hastier productions .  </s> 	0.856867333670816	1.10913565964695
+323	... the movie is just a plain old monster .  </s> 	1.34497684277598	1.81132640450569
+324	the movie is what happens when you blow up small potatoes to 10 times their natural size , and it ai n't pretty .  </s> 	1.67945725356136	1.48200433925304
+325	the movie 's accumulated force still feels like an ugly knot tightening in your stomach .  </s> 	1.87634327586712	2.00300397265661
+326	the movie 's relatively simple plot and uncomplicated morality play well with the affable cast .  </s> 	2.73554287337471	1.82173877994149
+327	the movie understands like few others how the depth and breadth of emotional intimacy give the physical act all of its meaning and most of its pleasure .  </s> 	0.796326249346906	1.19218692910245
+328	the primitive force of this film seems to bubble up from the vast collective memory of the combatants .  </s> 	1.30010573838787	3.11501970840788
+329	there are simply too many ideas floating around -- part farce , part sliding doors , part pop video -- and yet failing to exploit them .  </s> 	1.30060783164987	1.39362291045019
+330	there has always been something likable about the marquis de sade .  </s> 	1.20350250894992	2.13966299499685
+331	there is a fabric of complex ideas here , and feelings that profoundly deepen them .  </s> 	1.29264681481117	1.85029594769095
+332	there is no pleasure in watching a child suffer .  </s> 	1.67739227452867	1.44280714843224
+333	there is nothing outstanding about this film , but it is good enough and will likely be appreciated most by sailors and folks who know their way around a submarine .  </s> 	1.79873751458635	1.54714485302283
+334	there is n't nearly enough fun here , despite the presence of some appealing ingredients .  </s> 	1.48349064547349	1.73531492525075
+335	there ought to be a directing license , so that ed burns can have his revoked .  </s> 	1.04239119071891	1.17562490368178
+336	there seems to be no clear path as to where the story 's going , or how long it 's going to take to get there .  </s> 	1.52043405995747	1.93710027329575
+337	there 's ... tremendous energy from the cast , a sense of playfulness and excitement that seems appropriate .  </s> 	1.15204510994509	1.8776574685301
+338	the script kicks in , and mr. hartley 's distended pace and foot-dragging rhythms follow .  </s> 	2.57291420586143	2.78262930993248
+339	the second coming of harry potter is a film far superior to its predecessor .  </s> 	2.31749035279164	1.81601468521777
+340	the socio-histo-political treatise is told in earnest strides ... ( and ) personal illusion is deconstructed with poignancy .  </s> 	0.876982507438494	1.97160081416231
+341	the son 's room is a triumph of gentility that earns its moments of pathos .  </s> 	0.981090999553809	1.50563062735461
+342	the special effects and many scenes of weightlessness look as good or better than in the original , while the oscar-winning sound and james horner 's rousing score make good use of the hefty audio system .  </s> 	1.58138431465993	1.34209346456952
+343	the story and structure are well-honed .  </s> 	2.14509978928483	1.73980891755775
+344	the subtle strength of `` elling '' is that it never loses touch with the reality of the grim situation .  </s> 	0.986044513147398	1.36186647289595
+345	the talented and clever robert rodriguez perhaps put a little too much heart into his first film and did n't reserve enough for his second .  </s> 	0.89997593773017	4.47274566261203
+346	the tale of tok ( andy lau ) , a sleek sociopath on the trail of o ( takashi sorimachi ) , the most legendary of asian hitmen , is too scattershot to take hold .  </s> 	2.87665120106869	1.76478401374562
+347	`` the time machine '' is a movie that has no interest in itself .  </s> 	2.63935556363817	3.18639552121777
+348	the title not only describes its main characters , but the lazy people behind the camera as well .  </s> 	2.3917013897369	1.87914605620432
+349	the very definition of the ` small ' movie , but it is a good stepping stone for director sprecher .  </s> 	2.98357919762784	2.50367734043197
+350	the volatile dynamics of female friendship is the subject of this unhurried , low-key film that is so off-hollywood that it seems positively french in its rhythms and resonance .  </s> 	1.25068697505946	3.19283752948909
+351	the weight of the piece , the unerring professionalism of the chilly production , and the fascination embedded in the lurid topic prove recommendation enough .  </s> 	0.88856496350675	1.57280344873194
+352	the wild thornberrys movie is a jolly surprise .  </s> 	1.29465061066291	2.09675612555648
+353	the x potion gives the quickly named blossom , bubbles and buttercup supernatural powers that include extraordinary strength and laser-beam eyes , which unfortunately do n't enable them to discern flimsy screenplays .  </s> 	2.24938967230457	1.68800278266955
+354	this illuminating documentary transcends our preconceived vision of the holy land and its inhabitants , revealing the human complexities beneath .  </s> 	0.806971249202178	1.16436588771196
+355	this is a story of two misfits who do n't stand a chance alone , but together they are magnificent .  </s> 	2.3117825378582	1.47678353336787
+356	this is a train wreck of an action film -- a stupefying attempt by the filmmakers to force-feed james bond into the mindless xxx mold and throw 40 years of cinematic history down the toilet in favor of bright flashes and loud bangs .  </s> 	1.52535866678873	0.783874199197532
+357	this is a winning ensemble comedy that shows canadians can put gentle laughs and equally gentle sentiments on the button , just as easily as their counterparts anywhere else in the world .  </s> 	1.16341667770966	1.08814898633947
+358	this is not the undisputed worst boxing movie ever , but it 's certainly not a champion - the big loser is the audience .  </s> 	1.67912431598516	0.938983728218061
+359	this movie is maddening .  </s> 	1.87678693631017	1.97481051286173
+360	this movie seems to have been written using mad-libs .  </s> 	1.71154399767712	1.83650643834384
+361	this one is definitely one to skip , even for horror movie fanatics .  </s> 	2.07049243909775	2.71627106898431
+362	this riveting world war ii moral suspense story deals with the shadow side of american culture : racial prejudice in its ugly and diverse forms .  </s> 	0.929740719233424	1.52487700005789
+363	this tenth feature is a big deal , indeed -- at least the third-best , and maybe even a notch above the previous runner-up , nicholas meyer 's star trek vi : the undiscovered country .  </s> 	1.56964341302511	1.6853197315653
+364	this time mr. burns is trying something in the martin scorsese street-realist mode , but his self-regarding sentimentality trips him up again .  </s> 	2.54452854130317	1.4972481495361
+365	though it 's become almost redundant to say so , major kudos go to leigh for actually casting people who look working-class .  </s> 	1.97381833204634	1.95321338121786
+366	though perry and hurley make inspiring efforts to breathe life into the disjointed , haphazard script by jay scherick and david ronn , neither the actors nor director reginald hudlin can make it more than fitfully entertaining .  </s> 	1.69026094544531	1.75209807555957
+367	to call the other side of heaven `` appalling '' would be to underestimate just how dangerous entertainments like it can be .  </s> 	1.58117178096867	3.1055706253892
+368	too much of it feels unfocused and underdeveloped .  </s> 	0.813467826530364	0.990853311771937
+369	too often , the viewer is n't reacting to humor so much as they are wincing back in repugnance .  </s> 	2.04750310338228	1.28920976474411
+370	to say this was done better in wilder 's some like it hot is like saying the sun rises in the east .  </s> 	1.35630512688461	4.07615960274508
+371	tries to add some spice to its quirky sentiments but the taste is all too familiar .  </s> 	0.9089560905113	1.75224965051798
+372	try as i may , i ca n't think of a single good reason to see this movie , even though everyone in my group extemporaneously shouted , ` thank you ! '  </s> 	1.49925687019129	2.84161059432612
+373	turns potentially forgettable formula into something strangely diverting .  </s> 	1.92101036969027	2.40168733800832
+374	... turns so unforgivably trite in its last 10 minutes that anyone without a fortified sweet tooth will likely go into sugar shock .  </s> 	1.57961372268214	1.41773608521781
+375	uncommonly stylish but equally silly ... the picture fails to generate much suspense , nor does it ask searching enough questions to justify its pretensions .  </s> 	1.32761039220669	1.16406263025024
+376	unflinchingly bleak and desperate  </s> 	0.961877495544411	1.16446397269472
+377	unfortunately , it 's not silly fun unless you enjoy really bad movies .  </s> 	0.790940791725832	1.0399504824374
+378	uses high comedy to evoke surprising poignance .  </s> 	0.983335048282584	0.970180143153332
+379	uses sharp humor and insight into human nature to examine class conflict , adolescent yearning , the roots of friendship and sexual identity .  </s> 	0.899513559895429	0.948331329144346
+380	utterly lacking in charm , wit and invention , roberto benigni 's pinocchio is an astonishingly bad film .  </s> 	0.908887558560298	0.901300501453405
+381	warm water under a red bridge is a quirky and poignant japanese film that explores the fascinating connections between women , water , nature , and sexuality .  </s> 	0.818251870080558	1.29246691665002
+382	we have n't seen such hilarity since say it is n't so !  </s> 	1.12209861248663	2.6493005663832
+383	we know the plot 's a little crazy , but it held my interest from start to finish .  </s> 	2.26860685904126	1.69789970740734
+384	we root for ( clara and paul ) , even like them , though perhaps it 's an emotion closer to pity .  </s> 	2.53900601250341	2.90009368579584
+385	what better message than ` love thyself ' could young women of any size receive ?  </s> 	1.81063279176528	2.06206082626747
+386	what distinguishes time of favor from countless other thrillers is its underlying concern with the consequences of words and with the complicated emotions fueling terrorist acts .  </s> 	1.597431704337	1.25394601363425
+387	what really makes it special is that it pulls us into its world , gives us a hero whose suffering and triumphs we can share , surrounds him with interesting characters and sends us out of the theater feeling we 've shared a great adventure .  </s> 	0.860544484473671	0.847784521126629
+388	what the director ca n't do is make either of val kilmer 's two personas interesting or worth caring about .  </s> 	1.783197381969	1.56264876577168
+389	what the film lacks in general focus it makes up for in compassion , as corcuera manages to find the seeds of hope in the form of collective action .  </s> 	1.51573942936425	1.21975669089263
+390	what was once original has been co-opted so frequently that it now seems pedestrian .  </s> 	1.83033946995574	1.12043358279865
+391	when leguizamo finally plugged an irritating character late in the movie .  </s> 	1.55464591205273	2.47183011887916
+392	whether writer-director anne fontaine 's film is a ghost story , an account of a nervous breakdown , a trip down memory lane , all three or none of the above , it is as seductive as it is haunting .  </s> 	2.08752061299897	1.29602222953394
+393	whether you like rap music or loathe it , you ca n't deny either the tragic loss of two young men in the prime of their talent or the power of this movie .  </s> 	1.48619058828251	2.1661165479284
+394	while ( hill ) has learned new tricks , the tricks alone are not enough to salvage this lifeless boxing film .  </s> 	1.43895451325703	0.91136486754151
+395	( w ) hile long on amiable monkeys and worthy environmentalism , jane goodall 's wild chimpanzees is short on the thrills the oversize medium demands .  </s> 	3.33283909468387	2.70070838864024
+396	while the resident evil games may have set new standards for thrills , suspense , and gore for video games , the movie really only succeeds in the third of these .  </s> 	1.42528678110553	1.61883818401665
+397	while there 's something intrinsically funny about sir anthony hopkins saying ` get in the car , bitch , ' this jerry bruckheimer production has little else to offer  </s> 	1.34018872806428	1.53564512701708
+398	why make a documentary about these marginal historical figures ?  </s> 	1.09827295581945	1.25569723715738
+399	without ever becoming didactic , director carlos carrera expertly weaves this novelistic story of entangled interrelationships and complex morality .  </s> 	1.2825945612936	0.965852332087631
+400	... with `` the bourne identity '' we return to the more traditional action genre .  </s> 	1.7353806336821	3.5974352604173
+401	with the exception of some fleetingly amusing improvisations by cedric the entertainer as perry 's boss , there is n't a redeeming moment here .  </s> 	2.53103370007268	1.19083377313602
+402	with tightly organized efficiency , numerous flashbacks and a constant edge of tension , miller 's film is one of 2002 's involvingly adult surprises .  </s> 	1.37621271648614	1.4196575864567
+403	with virtually no interesting elements for an audience to focus on , chelsea walls is a triple-espresso endurance challenge .  </s> 	0.772807092122034	1.87135729565444
+404	works hard to establish rounded characters , but then has nothing fresh or particularly interesting to say about them .  </s> 	1.67038188766263	1.26931806929275
+405	you do n't have to know about music to appreciate the film 's easygoing blend of comedy and romance .  </s> 	1.43390790158863	1.65694844808157
+406	you 'll gasp appalled and laugh outraged and possibly , watching the spectacle of a promising young lad treading desperately in a nasty sea , shed an errant tear .  </s> 	1.13391913861095	2.31692187766567
+407	you wonder why enough was n't just a music video rather than a full-length movie .  </s> 	1.34358361245516	1.85089874451828
+408	you wo n't like roger , but you will quickly recognize him .  </s> 	1.71484512410928	3.69838732850614
+409	zhang ... has done an amazing job of getting realistic performances from his mainly nonprofessional cast .  </s> 	2.08643339025881	1.68258618024823

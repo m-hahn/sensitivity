@@ -1,0 +1,64 @@
+Original	LSTM_Sensitivity	BinaryS1ensitivity
+1	are aliens real or are they fake ?@ Do aliens exists? 	1.07969632793018	2.90936589242017
+2	Are vacuum fluctuations occuring because the energy in vacuum?@ Are these virtual particles? Do virtual particles and energy in vacuum really exist? Can we observe them? Where? When? 	1.12837050966423	4.04111420099839
+3	Can anyone tell shall mi mix mobile should be purchased or not?@ "What did Voltaire mean when he said, ""God is a comedian playing to an audience that is too afraid to laugh""?"? 	0.384766047280062	0.34649294015119
+4	Can eating only fruit for dinner lead to weight loss?@ Does eating dinner earlier in the evening help with weight loss? 	2.80083614587842	1.85120677321271
+5	Can i use mods in ps2 games like Gta San Andreass and others ?@ Nintendo 3DS: Can I just copy the downloaded games to another, bigger SD card for use in the same console? 	0.573120660778945	0.560360428265307
+6	Can you TRANSLATE these to English language?@ Can you translate this from Bengali to English language? 	0.977522239142764	0.690414368386226
+7	Does a RainTPL syntax extension for Sublime Text exist?@ Where can I download it? How do I hide the find/replace bar in Sublime Text 2? 	0.351469711331897	0.343899290996315
+8	Does marijuana cause cancer?@ How can smoking marijuana give you lung cancer? 	1.24399313346155	3.0846242308747
+9	How can I create the most popular question on Quora?@ Which are the most popular questions on Quora presently that also create the most discussions? 	1.84165333493643	1.6675315908448
+10	How could an HIV-positive person have children?@ Would you marry an HIV positive person? 	0.605643191912829	0.352273159847091
+11	How do I apply for jobs as an international student in the united states?@ Proteus software Infrared Light Sensors Microcontrollers +1 How can I simulate an IR sensor using Proteus software? 	0.196875615304443	0.339079014837724
+12	How do I buy used car in India?@ Which used car should I buy in India? 	0.88742464718246	1.5459999885786
+13	How do I find my Publication ID on Medium?@ Still not understanding Qoura? 	0.625121227095135	0.838097359172259
+14	How do I find out what operating system I have on my Macbook?@ How do I find out what operating system I have? 	1.80313873298219	1.84568087921397
+15	How do smart and successful people control their emotions?@ How can I control my emotions? 	1.45053857564592	2.29416817426688
+16	How do you close a Bank of America account?@ How can one close a bank account online? 	1.06591579170397	1.87037954990723
+17	How is India preparing for war against Pakistan?@ Is India preparing for a war? 	1.1386659272515	3.51989584521707
+18	How is vanilla extract made?@ How do you make sugar cookies without vanilla extract? 	1.38212521451736	0.44132966622984
+19	How much weed did Bob Marley smoke a day?@ How much weed should you smoke? 	0.851193067887832	1.13921680989238
+20	I am 25 year old guy and never had a girlfriend. Is this weird?@ I am 25 years old. I have never had a girlfriend. Is something wrong with me? 	0.435443952269044	3.85341089515466
+21	If universe is expanding without a limit and dark and vacuum energy are created as it expands...?@ If universe can expand without limit and it creates dark/vacuum/gravitational energy with it,then is the potential energy infinite? 	1.2726616561386	1.75918310877794
+22	I'm going to be US President one day. What should I start doing now to achieve this?@ I'm 16 and I want to become the US president someday. What should I start doing? 	2.02990450776851	3.82014673337557
+23	Is FMS Delhi a good option for a MBA executive program?@ Is FMS a good choice for an MBA in HR? Why and why not? 	0.7325148211857	0.724258294572392
+24	Is it a bad time to buy a condo or a house in the Bay Area in 2017?@ Would 2017 be a good time to buy a house in Bay Area? 	1.06453806370733	2.10321151826781
+25	Is it advisable to sent your cv to a professor with whom you are trying to make contact for graduate admission?@ How does contacting a professor before applying factor into graduate admissions? 	0.437618210957962	1.71763180810394
+26	Is there a reason why we should travel alone?@ What are some reasons to travel alone? 	1.04908378049562	6.76715590273747
+27	What are some good baby girl names starting with D?@ What are some good baby girl names starting with D or H? 	0.513968408079168	1.36357994643344
+28	What are some tips on making it through the job interview process at Access National?@ What are some tips on making it through the job interview process at eBay? 	0.498825339543837	1.49829128972292
+29	What are the best things to do in Hong Kong?@ What is the best thing in Hong Kong? 	0.755306900427882	1.9488440454028
+30	What are the best tips for outlining/planning a novel?@ How do I best outline my novel? 	1.68069638280958	3.40941026809937
+31	What are the difference between polyester 210T and 210D?@ What is the difference between cotton and polyester? 	0.413954096599374	0.648944528955617
+32	What are the procedures for becoming an actuary?@ What is the procedure of becoming an actuary? 	1.2980822697242	3.16436249020957
+33	What are the requirements to become president in the United States and how are the requirements different in Tanzania?@ What are the requirements to become president in the United States and how are the requirements different in France? 	0.980591135335868	1.88075274219274
+34	What are your views about demonetisation in India?@ What do you think about the ban on 500 and 1000 denomination notes in India? 	2.69446947803445	4.51210130788833
+35	What books should I read as an aspiring entrepreneur?@ What are the top books an aspiring teen entrepreneur should read? 	0.962580896905247	2.96042007394396
+36	"What does a good answer on Quora look like?@ What does it mean to ""be helpful""?"? How do you write a good answer on Quora? 	1.22935092078647	0.781304172729478
+37	What is a good text editor?@ What are the best text editor plugins? 	0.638769119934763	0.944454191154452
+38	What is an easy way to clean toothpaste stains from a shirt without washing it?@ What are some ways to remove hard water stains from dishes? 	0.529629765643325	0.76815388865885
+39	What is the average salary of a microbiologist in India?@ What is the salary for a psychologist in india? 	0.520115416433133	1.43646859417221
+40	What is the difference between the House of Representatives and the Senate?@ If both senators represent the whole state, then which senator do I get to vote for? What determines this? 	0.45418583572476	0.342786825715876
+41	What is the next number of this sequence?@ 5.....17......37.....89.....?? What is the next number in the sequence? 	1.00079348628439	0.5314134356646
+42	What is the Sahara, and how do the average temperatures there compare to the ones in the Patagonian Desert?@ What is the Sahara, and how do the average temperatures there compare to the ones in the Registan Desert? 	1.41064125289094	2.89293122289936
+43	What is the smartest question besides this question?@ What are the smartest questions that you have heard? 	1.30953174817785	0.972513029895856
+44	What is the value of [math]\displaystyle\int_{0}<unk>{\infty} \dfrac{x}{x<unk>2+a<unk>2}\,dx [/math]?@ What is the value of [math]\displaystyle\int_{-1}<unk>1 \frac{\sqrt{1-x<unk>2}}{a-x} \, dx[/math] where [math]a > 1[/math]? 	0.441731293781911	0.334008527359084
+45	What people who you've never met have influenced your life the most?@ Who are people you have never met who have had the greatest influence on your life? 	1.20113190256529	2.97813362121823
+46	What's the best way to increase agricultural productivity?@ I own an innovative advertising & marketing company operating for over 1 year & I am looking for an investor or financier partner to help expand fast? 	0.359153673853438	0.273304633376805
+47	What's the easiest way to make money online from India?@ What is the best way to make money in india? 	1.57060951215466	2.27197193309
+48	What was the deadliest battle in history?@ What was the bloodiest battle in history? 	0.919482269200827	3.48623295352458
+49	What will happen if Donald Trump became the president of America?@ What will happen now that President-elect Donald Trump has won the election? 	1.82523505638061	4.54648538258359
+50	Where can I buy special flavor cupcake at Gold Coast?@ Where can I found different flavours for cupcakes at Gold Coast? 	2.22721922543431	5.18588514368722
+51	Which is the best gaming laptop under 40k?@ Which is the best gaming laptop under 40,000 rs? 	1.50229378490842	2.99468523296262
+52	Which sector (i.e. primary, secondary, tertiary) contributes the most to the GDP of India?@ Why? What is my contribution to the GDP? 	0.62559966648659	0.336940952692555
+53	Which website is good for downloading Android (.apk) files?@ Android Application Development: Which software is used to develop APK files? 	0.686507788777754	1.5202837505301
+54	"Who is the Adam the lyrics to Blink-182's ""Adam's Song"" are written about?@ "? "Which Blink-182 band member wrote the lyrics to ""Adam's Song""?"? 	1.10781349196873	4.44553117112966
+55	Why are African-Americans so beautiful?@ Why are hispanics so beautiful? 	0.718357353486857	1.13687777524637
+56	Why are people so obsessed with having a girlfriend/boyfriend?@ How can a single male have a child? 	1.49714875927197	0.346707151798511
+57	Why does a rainbow lorikeet make a good pet?@ Can lorikeets be good pets? What are some ways to take good care of them? 	1.15568157060321	2.19153567931112
+58	Why is my life getting so complicated?@ Why is my life so complicated? 	0.900990682961409	4.04381790976156
+59	Why MS Dhoni leave captaincy of ODI & T-20?@ Why does M.S Dhoni left captaincy for ODI and T20? 	2.71854257583991	3.04882916874429
+60	Why should I crack Jee?@ Is it possible to get into IIMs with low marks in graduation and 12th? 	0.888534159367147	0.755396360133975
+61	Why Tamil Nadu Universities are no good?@ Why are the 10th students able to score 100% in Tamil Nadu? 	0.672412496053444	0.758759126705774
+62	Why was the Roman Empire so successful?@ What are some of the rarely known facts about the Roman Empire? 	1.1502982066289	0.660074588304482
+63	Why we do study computer fundamental in software engineering.?@ Do we get to chose only one computer language when we are studying engineering? 	0.945051958692797	1.66671691044695
