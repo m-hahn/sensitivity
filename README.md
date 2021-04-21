@@ -4,7 +4,7 @@
 
 * randomly initialized LSTMs
 
-[code/learnability/output/lstm-init-s1.pdf](Results)
+[Results](code/learnability/output/lstm-init-s1.pdf)
 
 * LSTM learnability 
 
