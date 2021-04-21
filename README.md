@@ -35,18 +35,18 @@
 
 * Sensitivity and length
 
-    [code/analyze/byLength_s1ensitivity_textclas_cola.pdf](Results: Text Classification and CoLA)
-    [code/analyze/byLength_s1ensitivity_textclas_glue.pdf](Results: By Task Group)
+[code/analyze/byLength_s1ensitivity_textclas_cola.pdf](Results: Text Classification and CoLA)
+[code/analyze/byLength_s1ensitivity_textclas_glue.pdf](Results: By Task Group)
 
 * performance of BoE, LSTN, RoBERTa
 
 XLNet:
 
-    [code/analyze/s1ensitivity-accuracy-grid.pdf](Results)
+[code/analyze/s1ensitivity-accuracy-grid.pdf](Results)
         
     u-PMLM:
     
-    [code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf](Results)
+[code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf](Results)
 
 * per-input analysis
 
