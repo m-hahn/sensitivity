@@ -1,20 +1,16 @@
-# Code
+# Code and Results
 
 ## Sensitivity Bounds for ML Models (Section 3)
 
-* randomly initialized LSTMs
+* randomly initialized LSTMs: [Results](code/learnability/output/lstm-init-s1.pdf)
 
-[Results](code/learnability/output/lstm-init-s1.pdf)
-
-* LSTM learnability 
-
-[Results](code/learnability/output/learnability3_together.pdf)
+* LSTM learnability: [Results](code/learnability/output/learnability3_together.pdf)
 
 * Transformer learnability (done after the paper was finished):
 
 ## Sensitivity of NLP Tasks (Section 4)
 
-* generating alternatives using XLNet
+* generating alternatives using XLNet: [Code](code/xlnet)
 
 * generating alternatives using u-PMLM: see https://github.com/m-hahn/PMLM
 
@@ -40,13 +36,9 @@
 
 * performance of BoE, LSTN, RoBERTa
 
-XLNet:
-
-[Results](code/analyze/s1ensitivity-accuracy-grid.pdf)
+[XLNet](code/analyze/s1ensitivity-accuracy-grid.pdf)
         
-    u-PMLM:
-    
-[Results](code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf)
+[u-PMLM](code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf)
 
 * per-input analysis
 
@@ -59,16 +51,14 @@ XLNet:
 
 ## Human Studies (Section 5)
 
-* Experiment 1
-** Code:
-** Link to online experiment:
-** Results:
+### Experiment 1
+
+[RTE](experiments/100-rte), [SST-2](experiments/200-sst2), [SST-2](experiments/200b-sst2)
 
 [Results](experiments/100-rte/Submiterator-master/figures/rte_sst_sensitivities_expt1.pdf)
 
-* Experiment 2
-** Code:
-** Link to online experiment:
-** Results:
+### Experiment 2
+[RTE](experiments/102-rte), [SST-2](experiments/202-sst2)
+
 [Results](experiments/102-rte/Submiterator-master/figures/sensitivity-changes-sst2-rte.pdf)
 
