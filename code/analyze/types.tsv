@@ -1,0 +1,19 @@
+Task	Type	
+Tagging	Parsing
+Labels	Parsing
+Heads	Parsing
+MPQA	TextClas
+Subj	TextClas
+CR	TextClas
+MR	TextClas
+SST2	GLUE
+QQP	GLUE
+MNLI	GLUE
+QNLI	GLUE
+CoLA	GLUE
+RTE	GLUE
+MRPC	GLUE
+WSC	GLUE
+Gym260	Gym
+Gym248	Gym
+

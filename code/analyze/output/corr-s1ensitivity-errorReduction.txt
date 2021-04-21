@@ -1,0 +1,36 @@
+
+	Pearson's product-moment correlation
+
+data:  byTask$MeanS1ensitivity and byTask$RoBERTaErrorReduction
+t = -0.17309, df = 10, p-value = 0.866
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.6094403  0.5360614
+sample estimates:
+        cor 
+-0.05465454 
+
+
+	Pearson's product-moment correlation
+
+data:  byTask$MeanS1ensitivity and byTask$LSTMErrorReduction
+t = -5.1043, df = 13, p-value = 0.0002022
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.9369972 -0.5235889
+sample estimates:
+       cor 
+-0.8167792 
+
+
+	Pearson's product-moment correlation
+
+data:  byTask$MeanS1ensitivity and byTask$CBOWErrorReduction
+t = -3.8899, df = 15, p-value = 0.001451
+alternative hypothesis: true correlation is not equal to 0
+95 percent confidence interval:
+ -0.8871286 -0.3457744
+sample estimates:
+      cor 
+-0.708646 
+
