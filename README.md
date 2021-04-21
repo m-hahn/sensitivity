@@ -6,7 +6,7 @@
 
 * LSTM learnability: [Results](code/learnability/output/learnability3_together.pdf)
 
-* Transformer learnability (done after the paper was finished):
+* Transformer learnability (done after the paper was finished): [Results](code/learnability/output/learnability3_together_Transformer.pdf)
 
 ## Sensitivity of NLP Tasks (Section 4)
 
