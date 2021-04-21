@@ -1,0 +1,50 @@
+
+Call:
+glm(formula = RobertaCorrect ~ FloatS1ensitivity + Length, family = "binomial", 
+    data = data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-3.2078   0.1374   0.1826   0.2446   0.8664  
+
+Coefficients:
+                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        4.73115    0.81041   5.838 5.28e-09 ***
+FloatS1ensitivity -1.36950    0.31766  -4.311 1.62e-05 ***
+Length             0.05865    0.03781   1.551    0.121    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 124.41  on 444  degrees of freedom
+Residual deviance: 105.55  on 442  degrees of freedom
+AIC: 111.55
+
+Number of Fisher Scoring iterations: 7
+
+
+Call:
+glm(formula = BOWCorrect ~ FloatS1ensitivity + Length, family = "binomial", 
+    data = data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.3838   0.3732   0.4521   0.5727   2.2788  
+
+Coefficients:
+                  Estimate Std. Error z value Pr(>|z|)    
+(Intercept)        3.98025    0.47416   8.394  < 2e-16 ***
+FloatS1ensitivity -1.21940    0.19507  -6.251 4.08e-10 ***
+Length            -0.02671    0.01569  -1.703   0.0886 .  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 409.99  on 444  degrees of freedom
+Residual deviance: 360.33  on 442  degrees of freedom
+AIC: 366.33
+
+Number of Fisher Scoring iterations: 5
+

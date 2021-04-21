@@ -1,0 +1,26 @@
+
+Call:
+glm(formula = BOWCorrect ~ FloatS11ensitivity + Length, family = "binomial", 
+    data = data)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-2.1623   0.4224   0.5071   0.6062   1.9787  
+
+Coefficients:
+                   Estimate Std. Error z value Pr(>|z|)    
+(Intercept)         2.84257    0.36876   7.709 1.27e-14 ***
+FloatS11ensitivity -1.24181    0.25465  -4.877 1.08e-06 ***
+Length             -0.04282    0.01482  -2.889  0.00387 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 409.99  on 444  degrees of freedom
+Residual deviance: 380.37  on 442  degrees of freedom
+AIC: 386.37
+
+Number of Fisher Scoring iterations: 4
+
+[1] -20.04555
