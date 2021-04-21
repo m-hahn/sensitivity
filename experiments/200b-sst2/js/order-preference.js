@@ -347,13 +347,13 @@ function make_slides(f) {
 	    console.log(stim);
 
 	    console.log(stim.premise);
-      $(".first-sentence").html(stim.premise);
+      $(".first-sentence").html(stim.text);
       $(".second-sentence").html(stim.hypothesis);
 
       if(stim.explanation != null) {
          $(".explanation").html(stim.explanation);
       } else {
-         $(".explanation").html("Does the first paragraph entail the second paragraph?");
+         $(".explanation").html("Does the review sound mostly positive or negative? Don't worry if you're not 100% sure, and choose the option you prefer intuitively.");
       }
 
       console.log("DONE PRESENTING");
@@ -416,13 +416,14 @@ function make_slides(f) {
 		   correct_answer = "NA";
 	   }
         dataForThisTrial = {
-          "premise" : this.stim.premise,
-          "hypothesis" : this.stim.hypothesis,
+          "text" : this.stim.text,
+          "gold_label" : this.stim.gold_label,
           "model_rating" : this.stim.model_rating,
           "rating" : document.querySelector('input[name="rating"]:checked').value,
           "slide_number" : exp.phase
         };
         exp.data_trials.push(dataForThisTrial);
+	    console.log("DATA");
 	    console.log(exp.data_trials[exp.data_trials.length-1]);
 
       dataExperiment= {
@@ -501,7 +502,7 @@ xhr = new XMLHttpRequest();
 	    //
 	    // // send rquest with JSON payload
 	     xhr.send(JSON.stringify(exp.data));
-      $(".redirect_prolific").html("Please click on this link to record your participation: <br><br><b><a href='https://app.prolific.co/submissions/complete?cc=26E36E18'>Record Participation</a></b><br><br>If you do not do this, you will NOT GET PAID.");
+      $(".redirect_prolific").html("Please click on this link to record your participation: <br><br><b><a href='https://app.prolific.co/submissions/complete?cc=5AC201D7'>Record Participation</a></b><br><br>If you do not do this, you will NOT GET PAID.");
 
     }
   });
@@ -535,7 +536,7 @@ const jqueryScript = document.createElement('script')
 	for(i = 0; i<60; i++) {
 		conditions.push(i);
 	}
-	alreadyDone = []; //[1, 6, 8, 9, 10, 12, 15, 16, 17, 19, 20, 22, 25, 27, 30, 31, 32, 33, 35, 38, 39, 40, 41, 42, 43, 44, 45, 48, 50, 51, 52, 53, 55, 57, 59];
+	alreadyDone = [] //1, 6, 10, 12, 15, 16, 17, 19, 20, 27, 32, 33, 39, 41, 42, 43, 44, 45, 51, 55, 57, 59];
 	while(1) {
            exp.conditionIndex = _.sample(conditions, 1)[0]; 
 		failed=false;
@@ -550,8 +551,8 @@ const jqueryScript = document.createElement('script')
 		}
 	}
                 
-        jqueryScript.src = '../../../block-certificates/process/output/process_RTE_PMLM_1billion_WithIndep.py_'+exp.conditionIndex+'.js'
-        console.log( '../../../block-certificates/process/output/process_RTE_PMLM_1billion_WithIndep.py_'+exp.conditionIndex+'.js');
+        jqueryScript.src = '../../../block-certificates/process/output/process_SST2_PMLM_RoBERTa_finetuned.py_'+exp.conditionIndex+'.js'
+        console.log( '../../../block-certificates/process/output/process_SST2_PMLM_RoBERTa_finetuned.py_'+exp.conditionIndex+'.js');
         jqueryScript.onload = () => {initAfterGettingData()}
         document.head.append(jqueryScript)
 }
@@ -560,7 +561,7 @@ const jqueryScript = document.createElement('script')
 /// init ///
 function initAfterGettingData() {
 
-         stimuliContext = _.shuffle(stimuli.slice(0, 30)); //_.sample(stimuli, 30);
+         stimuliContext = _.shuffle(stimuli.slice(0, 60)); //_.sample(stimuli, 30);
 console.log(stimuliContext);
 
 repeatWorker = false;

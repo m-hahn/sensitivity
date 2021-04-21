@@ -113,33 +113,25 @@ function make_slides(f) {
   });
 
 
-    
-
-
-
-
-
-
   slides.example1 = slide({
     name : "example1",
     start : function() {
       console.log("START EXP");
       $(".err").hide();
 
-      this.premise = ['Former', 'Uttar', 'Pradesh', 'minister', 'Amar', 'Mani', 'Tripathi,', 'his', 'wife', 'Madhu', 'Mani', 'and', 'three', 'others', 'are', 'currently', 'in', 'jail', 'in', 'connection', 'with', 'the', 'killing', 'of', 'the', 'poetess.']
-      this.hypothesis = ['Madhu', 'Mani', 'is', 'married', 'to', 'Amar', 'Mani', 'Tripathi.']
+      this.review = ["I", "simply", "can't", "recommend", "this", "movie", "enough."]
 
-      this.label = "entailment"
+      this.label = 1
 
       this.canChange = [];
       this.rows = [];
       aggregateLength = 0
 	    row = 0;
-      for(i=0; i<this.premise.length; i++) {
-	      aggregateLength+=this.premise[i].length;
+      for(i=0; i<this.review.length; i++) {
+	      aggregateLength+=this.review[i].length;
 	      if(aggregateLength > 50) {
 		      row += 1;
-		      aggregateLength = this.premise[i].length;
+		      aggregateLength = this.review[i].length;
 	      }
 	      this.rows.push(row);
 	      this.canChange.push(true);
@@ -149,7 +141,7 @@ function make_slides(f) {
       this.hasStartOfTextfield = []
   
       // construct HTML for text fields
-      for(i=0; i<this.premise.length; i++) {
+      for(i=0; i<this.review.length; i++) {
               this.clicked.push(false);
               this.hasStartOfTextfield.push(false);
       }
@@ -162,11 +154,6 @@ function make_slides(f) {
 	    this.step = 0
 
       console.log("DONE PRESENTING");
-      hypothesis = ""
-      for(i=0; i<this.hypothesis.length; i++) {
-              hypothesis += this.hypothesis[i]+" "
-      }
-      $(".hypothesis").html(hypothesis); //stim.premise+);
       this.nextStep();
     },
 
@@ -177,38 +164,39 @@ function make_slides(f) {
 
 	    console.log(this.step);
       if(this.step == 0) {
-          instructions = "Read the text snippet and the sentence carefully. The text snippet says that Madhu Mani is the wife of Amar Mani Tripathi. Therefore, the text <b>implies</b> the sentence below.<br><br>Then click on `Next Step'."
+          instructions = "Read the review carefully.<br>Note that it sounds <b>POSITIVE</b>: The writer says they cannot recommend the movie enough, so they must like it.<br><br>Then click on `Next Step'."
       } else if(this.step == 1) {
-	      instructions = "Can you change the text so it DOES NOT IMPLY the sentence below?<br><br>1. Click on `wife'. A text field pops up. Click on `Next Step'."
+	      instructions = "Can you change the review so it sounds <b>NEGATIVE</b>?<br><br>1. Click on `enough'. A text field pops up. Click on `Next Step'."
       } else if(this.step == 2) {
+	      console.log(this.clicked)
 	      for(i=0; i<this.clicked.length; i++) {
-    	         if((this.clicked[i]) != (!(i != 8))) {
+    	         if((this.clicked[i]) != (!(i != 6))) {
                             $(".err").show();
            	             return;
     	         }
 	      }
-	      instructions = "2. Enter `sister' (without quotation marks).<br><br>3. Now the text reads: `...Amar Mani Tripathi, his sister Madhu Mani...'<br><br>4. Now, the text does not imply the sentence below any more!<br><br>5. Click on `Next Step'."
+	      instructions = "2. Enter `at all' (without quotation marks).<br><br>3. Now the text reads: `I simply can't recommend this movie at all.'<br><br>4. Now, the text sounds negative!<br><br>5. Click on `Next Step'."
       } else if(this.step == 3) {
 	      //console.log(document.getElementById("input_textfield8").value);
 	      //if(document.getElementById("input_textfield8").value.trim() != "sister") {
                //   $(".err").show();
 		//  return;
 	      //}
-	      instructions = "There are other ways to make the text NOT IMPLY the sentence below.<br><br>Click on `Save and try another possibility'."
+	      instructions = "There are other ways to make the review sound negative.<br><br>Click on `Save and try another possibility'."
               $(".nextStep").hide()
       } else if(this.step == 4) {
               $(".nextStep").show()
-	      instructions = "Your task is to come up with as many ways as possible of changing the text, while leaving the words you've changed so far (`wife') unchanged! If you click on `wife', nothing will happen.<br><br>Click on `Next Step'."
+	      instructions = "Your task is to come up with as many ways as possible of changing the text, while leaving the words you've changed so far (`enough.') unchanged! If you click on `enough.', nothing will happen.<br><br>Click on `Next Step'."
       } else if(this.step == 5) {
-	      instructions = "1. Click on `Amar', `Mani', `Tripathi'.<br><br>2. Enter another name.<br><br>3. Now the text again DOES NOT IMPLY the sentence below! Click on `Next Step'."
+	      instructions = "1. Click on `simply', `can't', and `recommend'.<br><br>2. Enter `discourage you from watching'.<br><br>3. Now the review again sounds NEGATIVE! Click on `Next Step'."
       } else if(this.step == 6) {
-	      for(i=0; i<this.clicked.length; i++) {
-    	         if((this.clicked[i]) != (!(i != 4 && i != 5 && i != 6))) {
-                            $(".err").show();
-           	             return;
-    	         }
-	      }
-	      instructions = "You can add and remove a text field by clicking on a word. Click on `Former' to create a text field, and then click on it again to remove the text field.<br><br>Click on `Next Step'."
+//	      for(i=0; i<this.clicked.length; i++) {
+//    	         if((this.clicked[i]) != (!(i != 3))) {
+//                            $(".err").show();
+//           	             return;
+//    	         }
+//	      }
+	      instructions = "You can add and remove a text field by clicking on a word. Click on `movie' to create a text field, and then click on it again to remove the text field.<br><br>Click on `Next Step'."
       } else if(this.step == 7) {
 	      if(this.clicked[0]) {
                   $(".err").show();
@@ -217,33 +205,22 @@ function make_slides(f) {
 	      instructions = "There are still further ways of changing the text! Click on `Save and try another possibility'"
               $(".nextStep").hide()
       } else if(this.step == 8) {
-	      instructions = "1. Click on `his', and enter `his former'.<br><br>2. Now the text reads `..., his former wife Madhu Mani...'.<br><br>Click on `Next Step'."
+	      instructions = "1. Click on `this' and enter `staying away from this'.<br><br>2. Now the text sounds NEGATIVE again!<br><br>Click on `Next Step'."
               $(".nextStep").show()
       } else if(this.step == 9) {
 	      for(i=0; i<this.clicked.length; i++) {
-    	         if((this.clicked[i]) != (!(i != 7))) {
+    	         if((this.clicked[i]) != (!(i != 4))) {
                             $(".err").show();
            	             return;
     	         }
 	      }
-	      instructions = "Again the text DOES NOT IMPLY the sentence below!<br><br>Click on `Save and try another possibility'."
-              $(".nextStep").hide()
-      } else if(this.step == 10) {
-	      instructions = "1. Click on `Madhu', `Mani'.<br><br>2. Enter another name.<br><br>3. Now the text again DOES NOT IMPLY the sentence below! Click on `Next Step'."
-              $(".nextStep").show()
-      } else if(this.step == 11) {
-	      if(!(this.clicked[9] && this.clicked[10])) {
-                  $(".err").show();
-		  return;
-	      }
-              $(".nextStep").show()
 	      instructions = "Maybe you can come up with even more ways of changing the text, but we'll stop this example here.<br><br>Click on `Next Step'."
+      } else if(this.step == 10) {
+	  instructions = "For each text snippet in this HIT, you will be required to find at least one change for each text.<br>In some -- but not all -- cases, there may be additional correct changes that also satisfy the requirement. For each additional correct change that you come up with, we will bonus you 15 cents, up to a total bonus of $6.00. Click on `Next Step'."
+      } else if(this.step == 11) {
+	      instructions = "In this example, the review sounded POSITIVE, and your job was to change it so it sounded NEGATIVE. In this experiment, you will also see texts that sound NEGATIVE, and your job will be to change the text so it sounds POSITIVE. For each text, we will tell you which version applies; make sure to pay attention. Click on `Next Step'."
       } else if(this.step == 12) {
-	  instructions = "For each text snippet in this HIT, you will be required to find at least one change for each text.<br>In some -- but not all -- cases, there may be additional correct changes that also satisfy the requirement. For each additional correct change that you come up with, we will bonus you 15 cents, up to a total bonus of $6.00. There will be 30 text snippets in this experiment. Baseline pay is $10. If you were to come up with one additional change for each snippet, you would earn a total of $14.5. Click on `Next Step'."
-      } else if(this.step == 13) {
-	      instructions = "In this example, the text IMPLIED the sentence, and your job was to change the text so it DOES NOT IMPLY the sentence. In this experiment, you will also see texts that DO NOT IMPLY the sentence, and your job will be to change the text so they IMPLY the sentence. For each text, we will tell you which version applies; make sure to pay attention. Click on `Next Step'."
-      } else if(this.step == 14) {
-	      instructions = "You're ready to go. Click on `Save and go to Next Sentence' to get started with the experiment."
+	      instructions = "Click on `Save and go to Next Sentence' to see another example."
       } else {
               $(".err").show();
 	      return;
@@ -272,16 +249,16 @@ function make_slides(f) {
 
     
 
-      for(i=0; i<this.premise.length; i++) {
+      for(i=0; i<this.review.length; i++) {
 	      if(this.clicked[i] & (i == 0 | !this.clicked[i-1])) {
 		      lengthInColumns = 0;
 		      accumulatedText = "";
 		      lengthInCharacters = 0;
-		      for(j=i; j<this.premise.length; j++) {
+		      for(j=i; j<this.review.length; j++) {
 			      if(!this.clicked[j]) {
 				      break;
 			      }
-			      lengthInCharacters += this.premise[j].length;
+			      lengthInCharacters += this.review[j].length;
 			      lengthInColumns += 1;
 			      if(this.hasStartOfTextfield[j]) {
 				      accumulatedText += (document.getElementById("input_textfield"+j).value + " ")
@@ -296,7 +273,7 @@ function make_slides(f) {
                           htmlTextFieldByRow[this.rows[i]] += "<td>"  + "</td>"
 	             } else {
 			if(i>0 & this.rows[i] != this.rows[i-1]) {
-               		     for(j=i; j<this.premise.length; j++) {
+               		     for(j=i; j<this.review.length; j++) {
                		       if(!this.clicked[j]) {
                		   		break;
                		   	}
@@ -312,8 +289,8 @@ function make_slides(f) {
 	    }
 
 
-      for(i=0; i<this.premise.length; i++) {
-	      sentenceHere = this.premise[i]
+      for(i=0; i<this.review.length; i++) {
+	      sentenceHere = this.review[i]
 	      if(this.clicked[i]) {
 		      sentenceHere = "<strike>"+sentenceHere+"</strike>"
 	      } else {
@@ -332,7 +309,7 @@ function make_slides(f) {
       for(row=0; row<htmlTextFieldByRow.length; row++) {
   	    html_ += "<table>"+htmlTextFieldByRow[row] + htmlTextByRow[row]+"</table>"
       }
-      $(".premise").html(html_); //stim.premise+);
+      $(".review").html(html_); //stim.sentence+);
 
 
 
@@ -340,7 +317,7 @@ function make_slides(f) {
 
 
     button : function() {
-	    if(this.step != 4 && this.step != 8 && this.step !=10) {
+	    if(this.step != 4 && this.step != 8) {
                 $(".err").show();
 		    return;
 	    }
@@ -348,12 +325,12 @@ function make_slides(f) {
 	 this.filled = []
 
          this.responses = []
-      for(i=0; i<this.premise.length; i++) {
+      for(i=0; i<this.review.length; i++) {
 	      if(this.clicked[i] & (i == 0 | !this.clicked[i-1])) {
 		      lengthInColumns = 0;
 		      accumulatedText = "";
 		      lengthInCharacters = 0;
-		      for(j=i; j<this.premise.length; j++) {
+		      for(j=i; j<this.review.length; j++) {
 			      if(!this.clicked[j]) {
 				      break;
 			      }
@@ -369,7 +346,7 @@ function make_slides(f) {
 
 
          if (this.responses.length > 0) {
-		 for(i=0; i<this.premise.length; i++) {
+		 for(i=0; i<this.review.length; i++) {
 			 if(this.clicked[i]) {
  		             this.canChange[i]=false;
 				 this.clicked[i]=false;
@@ -383,7 +360,7 @@ function make_slides(f) {
 	    this.nextStep();
     },
 	  nextSentence : function() {
-		  if(this.step == 15) {
+		  if(this.step == 13) {
                       $(".err").hide();
    		      exp.go();
 		  }
@@ -397,57 +374,229 @@ function make_slides(f) {
 
   slides.example2 = slide({
     name : "example2",
-    start: function() {
-              $(".err").hide();
-    }, 
-    button : function() {
-	    if(document.getElementById("completion_premise_Ex1").value.trim() == ", his wife") {
-                 exp.go(); //use exp.go() if and only if there is no "present" data.
+    start : function() {
+      console.log("START EXP");
+      $(".err").hide();
+
+      this.review = ["What", "an", "utter", "waste", "of", "time.", "Decent", "acting", "but", "totally", "predictable", "plot."]
+
+      this.label = 1
+
+      this.canChange = [];
+      this.rows = [];
+      aggregateLength = 0
+	    row = 0;
+      for(i=0; i<this.review.length; i++) {
+	      aggregateLength+=this.review[i].length;
+	      if(aggregateLength > 50) {
+		      row += 1;
+		      aggregateLength = this.review[i].length;
+	      }
+	      this.rows.push(row);
+	      this.canChange.push(true);
+      }
+
+      this.clicked = [];
+      this.hasStartOfTextfield = []
+  
+      // construct HTML for text fields
+      for(i=0; i<this.review.length; i++) {
+              this.clicked.push(false);
+              this.hasStartOfTextfield.push(false);
+      }
+      this.redrawTable();
+	    if(this.label == "entailment") {
+		    instrImply = "DOES NOT IMPLY"
 	    } else {
-              $(".err").show();
+		    instrImply = "IMPLIES"
 	    }
-    }
-  });
+	    this.step = 0
 
-  slides.example3 = slide({
-    name : "example3",
-    start: function() {
-              $(".err").hide();
-    }, 
-    button : function() {
-      exp.go(); //use exp.go() if and only if there is no "present" data.
-    }
-  });
+      console.log("DONE PRESENTING");
+      this.nextStep();
+    },
+
+    nextStep : function() {
+           $(".err").hide();
 
 
-  slides.example4 = slide({
-    name : "example4",
-    start: function() {
-              $(".err").hide();
-    }, 
-    button : function() {
-	    if(document.getElementById("completion_premise_Ex2").value.trim() == "muscles are") {
-                 exp.go(); //use exp.go() if and only if there is no "present" data.
-	    } else {
+
+	    console.log(this.step);
+      if(this.step == 0) {
+          instructions = "Read the review carefully.<br>Note that it sounds <b>NEGATIVE</b>.<br><br>Then click on `Next Step'."
+      } else if(this.step == 1) {
+	      instructions = "Can you change the review so it sounds <b>POSITIVE</b>?<br><br>1. Click on `an', `utter', `waste', `of', `time'. A text field pops up. Click on `Next Step'."
+      } else if(this.step == 2) {
+	      console.log(this.clicked)
+	      for(i=0; i<this.clicked.length; i++) {
+    	         if((this.clicked[i]) != (!(i != 1 && i != 2 && i != 3 && i != 4 && i != 5))) {
+                            $(".err").show();
+           	             return;
+    	         }
+	      }
+	      instructions = "2. Enter `a nice surprise.'.<br><br>3. Click on `but', `totally', and enter `though somewhat'.<br><br>4. Now, the text sounds a lot more positive!<br><br>5. Click on `Next Step'."
+      } else if(this.step == 3) {
+	      console.log(this.clicked)
+	      for(i=0; i<this.clicked.length; i++) {
+    	         if((this.clicked[i]) != (!(i != 1 && i != 2 && i != 3 && i != 4 && i != 5 && i!=8 && i != 9))) {
+                            $(".err").show();
+           	             return;
+    	         }
+	      }
+	      instructions = "Click on `Save and try another possibility."
+              $(".nextStep").hide()
+      } else if(this.step == 4) {
+              $(".nextStep").show()
+	      instructions = "Can you come up with another way to make it sound positive? How about changing `What' to `It first seemd like', and changing `Decent acting' to `Slow start', and changing `predictable plot' to `amazing acting.'<br><br>Now it sounds positive!<br><br>Click on `Save and go to Next Sentence' to get started with the experiment."
+      } else {
               $(".err").show();
+	      return;
+      }
+      this.step += 1;
+      $(".instr1").html(instructions);
+      $(".err").hide();
+
+    },
+
+    tableClick : function(i) {
+	    if(this.canChange[i]) {
+	       this.clicked[i] = !this.clicked[i];
+	       this.redrawTable();
 	    }
-    }
-  });
+    },
+
+    redrawTable : function() {
+  
+      htmlTextFieldByRow = ["<tr>"];
+      htmlTextByRow = ["<tr>"];
+      for(row = 0; row < this.rows.length; row++) {
+	  htmlTextFieldByRow.push("<tr>");
+      	  htmlTextByRow.push("<tr>");
+      }
+
+    
+
+      for(i=0; i<this.review.length; i++) {
+	      if(this.clicked[i] & (i == 0 | !this.clicked[i-1])) {
+		      lengthInColumns = 0;
+		      accumulatedText = "";
+		      lengthInCharacters = 0;
+		      for(j=i; j<this.review.length; j++) {
+			      if(!this.clicked[j]) {
+				      break;
+			      }
+			      lengthInCharacters += this.review[j].length;
+			      lengthInColumns += 1;
+			      if(this.hasStartOfTextfield[j]) {
+				      accumulatedText += (document.getElementById("input_textfield"+j).value + " ")
+			      }
+  	                      this.hasStartOfTextfield[j] = false;
+		      }
+                     htmlTextFieldByRow[this.rows[i]] += "<td colspan="+lengthInColumns+">" + "<textarea rows=1 cols="+lengthInCharacters+" id=input_textfield"+i+">"+accumulatedText.trim()+"</textarea>" + "</td>"
+  	             this.hasStartOfTextfield[i] = true;
+	      } else {
+  	             this.hasStartOfTextfield[i] = false;
+	             if(!this.clicked[i]) {
+                          htmlTextFieldByRow[this.rows[i]] += "<td>"  + "</td>"
+	             } else {
+			if(i>0 & this.rows[i] != this.rows[i-1]) {
+               		     for(j=i; j<this.review.length; j++) {
+               		       if(!this.clicked[j]) {
+               		   		break;
+               		   	}
+               		        htmlTextFieldByRow[this.rows[i]] += "<td>"  + "</td>"
+               		    }
+
+			}
+		     }
+	      }
+      }
+	    for(row=0; row<htmlTextFieldByRow.length; row++) {
+	        htmlTextFieldByRow[row] += "</tr>"
+	    }
 
 
-  slides.example5 = slide({
-    name : "example5",
-    start: function() {
-              $(".err").hide();
-    }, 
+      for(i=0; i<this.review.length; i++) {
+	      sentenceHere = this.review[i]
+	      if(this.clicked[i]) {
+		      sentenceHere = "<strike>"+sentenceHere+"</strike>"
+	      } else {
+                      if(!this.canChange[i]) {
+   		           sentenceHere = "<i>"+sentenceHere+"</i>"
+		      } else {
+   		           sentenceHere = "<b>"+sentenceHere+"</b>"
+		      }
+
+	      }
+          htmlTextByRow[this.rows[i]] += '<td  onclick='+"'"+    '_s.tableClick('+i+')' +"'"+' >' + sentenceHere + "&nbsp; </td>"
+      }
+
+
+      html_ = ""
+      for(row=0; row<htmlTextFieldByRow.length; row++) {
+  	    html_ += "<table>"+htmlTextFieldByRow[row] + htmlTextByRow[row]+"</table>"
+      }
+      $(".review").html(html_); //stim.sentence+);
+
+
+
+    },
+
+
     button : function() {
-	    if(document.getElementById("completion_premise_Ex3").value.trim() == "bank is located in") {
-                 exp.go(); //use exp.go() if and only if there is no "present" data.
-	    } else {
-              $(".err").show();
+	    if(this.step != 4) {
+                $(".err").show();
+		    return;
 	    }
-    }
+	 allFieldsFilled = true;
+	 this.filled = []
+
+         this.responses = []
+      for(i=0; i<this.review.length; i++) {
+	      if(this.clicked[i] & (i == 0 | !this.clicked[i-1])) {
+		      lengthInColumns = 0;
+		      accumulatedText = "";
+		      lengthInCharacters = 0;
+		      for(j=i; j<this.review.length; j++) {
+			      if(!this.clicked[j]) {
+				      break;
+			      }
+			      lengthInColumns += 1;
+			      if(this.hasStartOfTextfield[j]) {
+				      accumulatedText += (" "+document.getElementById("input_textfield"+j).value)
+			      }
+  		      }
+		      this.responses.push([i, lengthInColumns, accumulatedText]);
+	      }
+      }
+	    console.log(this.responses);
+
+
+         if (this.responses.length > 0) {
+		 for(i=0; i<this.review.length; i++) {
+			 if(this.clicked[i]) {
+ 		             this.canChange[i]=false;
+				 this.clicked[i]=false;
+			 }
+		 }
+		 this.redrawTable();
+         } else {
+           $(".err").show();
+
+	 }
+	    this.nextStep();
+    },
+	  nextSentence : function() {
+		  if(this.step == 5) {
+                      $(".err").hide();
+   		      exp.go();
+		  }
+                 $(".err").show();
+	  },
+
   });
+
+
 
 
 
@@ -463,9 +612,8 @@ function make_slides(f) {
       console.log(stim);
       $(".err").hide();
       this.stim = stim; //FRED: allows you to access stim in helpers
-      console.log(stim.premise);
-      console.log(stim.hypothesis);
-
+      console.log(stim.sentence);
+      stim.sentence = stim.sentence.split(" ");
       sentence = stim.sentence;
       console.log(sentence);
 
@@ -474,11 +622,11 @@ function make_slides(f) {
       this.rows = [];
       aggregateLength = 0
 	    row = 0;
-      for(i=0; i<this.stim.premise.length; i++) {
-	      aggregateLength+=this.stim.premise[i].length;
+      for(i=0; i<this.stim.sentence.length; i++) {
+	      aggregateLength+=this.stim.sentence[i].length;
 	      if(aggregateLength > 60) {
 		      row += 1;
-		      aggregateLength = this.stim.premise[i].length;
+		      aggregateLength = this.stim.sentence[i].length;
 	      }
 	      this.rows.push(row);
 	      this.canChange.push(true);
@@ -488,26 +636,21 @@ function make_slides(f) {
       this.hasStartOfTextfield = []
   
       // construct HTML for text fields
-      for(i=0; i<this.stim.premise.length; i++) {
+      for(i=0; i<this.stim.sentence.length; i++) {
               this.clicked.push(false);
               this.hasStartOfTextfield.push(false);
       }
       this.redrawTable();
-	    if(this.stim.label == "entailment") {
-		    instrImply = "DOES NOT IMPLY"
-		    instrImply1 = "IMPLIES"
+	    if(this.stim.label == 1) {
+		    instrImply = "NEGATIVE"
+		    instrImply1 = "POSITIVE"
 	    } else {
-		    instrImply = "IMPLIES"
-		    instrImply1 = "DOES NOT IMPLY"
+		    instrImply = "POSITIVE"
+		    instrImply1 = "NEGATIVE"
 	    }
-      $(".instr1").html("The text "+instrImply1+" the sentence below.<br>Can you change the text so it "+instrImply+" the sentence?<br>");
+      $(".instr1").html("The review sounds "+instrImply1+".<br>Can you change the text so it sounds "+instrImply+"?<br>");
 
       console.log("DONE PRESENTING");
-	    hypothesis = ""
-	    for(i=0; i<this.stim.hypothesis.length; i++) {
-		    hypothesis += this.stim.hypothesis[i]+" "
-	    }
-      $(".hypothesis").html(hypothesis); //stim.premise+);
 $(".bonus").html("$"+Math.min(6.00,Math.round(exp.bonus*100)/100));
       this.stim = stim;
     },
@@ -533,16 +676,16 @@ $(".bonus").html("$"+Math.min(6.00,Math.round(exp.bonus*100)/100));
 
     
 
-      for(i=0; i<this.stim.premise.length; i++) {
+      for(i=0; i<this.stim.sentence.length; i++) {
 	      if(this.clicked[i] & (i == 0 | !this.clicked[i-1])) {
 		      lengthInColumns = 0;
 		      accumulatedText = "";
 		      lengthInCharacters = 0;
-		      for(j=i; j<this.stim.premise.length; j++) {
+		      for(j=i; j<this.stim.sentence.length; j++) {
 			      if(!this.clicked[j]) {
 				      break;
 			      }
-			      lengthInCharacters += this.stim.premise[j].length;
+			      lengthInCharacters += this.stim.sentence[j].length;
 			      lengthInColumns += 1;
 			      if(this.hasStartOfTextfield[j]) {
 				      accumulatedText += (document.getElementById("input_textfield"+j).value + " ")
@@ -557,7 +700,7 @@ $(".bonus").html("$"+Math.min(6.00,Math.round(exp.bonus*100)/100));
                           htmlTextFieldByRow[this.rows[i]] += "<td>"  + "</td>"
 	             } else {
 			if(i>0 & this.rows[i] != this.rows[i-1]) {
-               		     for(j=i; j<this.stim.premise.length; j++) {
+               		     for(j=i; j<this.stim.sentence.length; j++) {
                		       if(!this.clicked[j]) {
                		   		break;
                		   	}
@@ -573,8 +716,8 @@ $(".bonus").html("$"+Math.min(6.00,Math.round(exp.bonus*100)/100));
 	    }
 
 
-      for(i=0; i<this.stim.premise.length; i++) {
-	      sentenceHere = this.stim.premise[i]
+      for(i=0; i<this.stim.sentence.length; i++) {
+	      sentenceHere = this.stim.sentence[i]
 	      if(this.clicked[i]) {
 		      sentenceHere = "<strike>"+sentenceHere+"</strike>"
 	      } else {
@@ -592,18 +735,18 @@ $(".bonus").html("$"+Math.min(6.00,Math.round(exp.bonus*100)/100));
       for(row=0; row<htmlTextFieldByRow.length; row++) {
   	    html_ += "<table>"+htmlTextFieldByRow[row] + htmlTextByRow[row]+"</table>"
       }
-      $(".premise").html(html_); //stim.premise+);
+      $(".review").html(html_); //stim.sentence+);
     },
 
 
     getResponses : function() {
          this.responses = []
-         for(i=0; i<this.stim.premise.length; i++) {
+         for(i=0; i<this.stim.sentence.length; i++) {
 	      if(this.clicked[i] & (i == 0 | !this.clicked[i-1])) {
 		      lengthInColumns = 0;
 		      accumulatedText = "";
 		      lengthInCharacters = 0;
-		      for(j=i; j<this.stim.premise.length; j++) {
+		      for(j=i; j<this.stim.sentence.length; j++) {
 			      if(!this.clicked[j]) {
 				      break;
 			      }
@@ -628,7 +771,7 @@ $(".bonus").html("$"+Math.min(6.00,Math.round(exp.bonus*100)/100));
          
 
          if (this.getResponses() > 0) {
-		 for(i=0; i<this.stim.premise.length; i++) {
+		 for(i=0; i<this.stim.sentence.length; i++) {
 			 if(this.clicked[i]) {
  		             this.canChange[i]=false;
 				 this.clicked[i]=false;
@@ -658,8 +801,10 @@ $(".bonus").html("$"+Math.min(6.00,Math.round(exp.bonus*100)/100));
 	    exp.bonus += 0.15 * (this.allResponses.length-1)
         dataForThisTrial = ({
           "completion" : this.allResponses,
+          "sentence" : this.stim.sentence,
           "original" : this.stim.original,
-	"premise_list" : this.stim.premise,
+          "sensitivity" : this.stim.sensitivity,
+          "label" : this.stim.label,
           "slide_number" : exp.phase
         });
         exp.data_trials.push(dataForThisTrial);
@@ -692,6 +837,8 @@ serverIndex = _.sample([1,2,3,4,5,6,7,8,9,10], 1)
 
 
 
+
+
   slides.subj_info =  slide({
     name : "subj_info",
     submit : function(e){
@@ -702,6 +849,7 @@ serverIndex = _.sample([1,2,3,4,5,6,7,8,9,10], 1)
         asses : $('input[name="assess"]:checked').val(),
         age : $("#age").val(),
         gender : $("#gender").val(),
+	      bonus : "$"+Math.min(6.00,Math.round(exp.bonus*100)/100),
         education : $("#education").val(),
 //        colorblind : $("#colorblind").val(),
         comments : $("#comments").val(),
@@ -744,7 +892,7 @@ xhr = new XMLHttpRequest();
 	    //
 	    // // send rquest with JSON payload
 	     xhr.send(JSON.stringify(exp.data));
-      $(".redirect_prolific").html("Please click on this link to record your participation: <br><br><b><a href='https://app.prolific.co/submissions/complete?cc=26E36E18'>Record Participation</a></b><br><br>If you do not do this, you will NOT GET PAID.");
+      $(".redirect_prolific").html("Please click on this link to record your participation: <br><br><b><a href='https://app.prolific.co/submissions/complete?cc=4A78476B'>Record Participation</a></b><br><br>If you do not do this, you will NOT GET PAID.");
 
     }
   });
@@ -790,7 +938,7 @@ repeatWorker = false;
    exp.structure.push('consent')
 exp.structure.push( 'instructions1')
 exp.structure.push( 'example1')
-//exp.structure.push( 'example2')
+exp.structure.push( 'example2')
 //exp.structure.push( 'example3')
 //exp.structure.push( 'example4')
 //exp.structure.push( 'example5')
