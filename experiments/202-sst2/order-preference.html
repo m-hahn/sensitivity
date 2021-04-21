@@ -1,0 +1,412 @@
+<html>
+
+<head>
+    <title>Language Study</title>
+
+    <!--JS-->
+
+    <!-- external general utilities -->
+    <script src="../_shared/js/jquery-1.11.1.min.js "></script>
+    <script src="../_shared/full-projects/jquery-ui/jquery-ui.min.js"></script>
+    <script src="../_shared/js/underscore-min.js"></script>
+    <!-- if you want to draw stuff: -->
+    <script src="../_shared/js/raphael-min.js"></script>
+
+    <!-- cocolab experiment logic -->
+    <script src="../_shared/js/exp-V2.js"></script>
+    <script src="../_shared/js/stream-V2.js"></script>
+
+    <!-- cocolab general utilities -->
+    <script src="../_shared/js/mmturkey.js "></script>
+    <script src="../_shared/js/browserCheck.js"></script>
+    <script src="../_shared/js/utils.js"></script>
+    <!-- if you want to draw cute creatures (depends on raphael): -->
+    <!-- <script src="../_shared/js/ecosystem.js"></script> -->
+
+    <!-- experiment specific helper functions -->
+    <!-- <script src="js/local-utils.js"></script> -->
+    <script src="../_shared/preload.js"></script>     
+    
+
+
+
+    <!--CSS-->
+    <link href="../_shared/full-projects/jquery-ui/jquery-ui.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../_shared/css/cocolab-style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/local-style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- experiment file -->
+    <script src="js/order-preference.js"></script>
+    <script src="expt-files/corpus.js"></script>
+
+    <!-- check unique turkers -->
+    <!--    <script src="../_shared/js/uniqueturker.js"></script>-->
+
+
+   
+</head>
+
+<body onload="init();">
+  <noscript>This task requires JavaScript.</noscript>
+
+  <div class="slide" id="i0" >
+    <!--<img src="../_shared/images/cocologo.png" alt="Stanford Linguistics" id="cocologo"></img>-->
+    <p id="cocolab">Stanford Linguistics</p>
+    <p id="instruct-text">This HIT involves rewriting movie reviews. The task should should take between 20 and 40 minutes. You will get a bonus for additional effort. Please pay attention. Thanks! <br/>  
+    <!--<br/> We'll be posting a series of similar hits. Please accept only one of these.--> </p>
+    
+    <button id="start_button" type="button">Start Experiment</button>
+    <p id="legal">Legal information: By answering the following questions, you are participating in a study being performed by cognitive scientists in the Stanford Department of Linguistics. If you have questions about this research, please contact Michael Hahn at <a href="mailto://mhahn2@stanford.edu">mhahn2@stanford.edu</a>. You must be  at least 18 years old to participate. Your participation in this research is voluntary. You may decline to answer any or all of the following questions. You may decline further participation, at any time, without adverse consequences. Your anonymity is assured; the researchers who have requested your participation will not receive any personal information about you.</p>
+  </div>
+
+  <div class="slide" id="instructions1">
+    <h3>Instructions</h3>
+    <p>
+    In this experiment, you will be <b>rewriting sentences</b>.
+    </p><p>You will see short movie reviews. Your task is to <b>change</b> it so that it sounds <b>positive</b> or <b>negative</b>.<br>
+    <br>
+    <br>
+    There will be an example before the start of the experiment.
+    <br>
+    <br>
+    The goal of the experiment is to understand what differentiates positive from negative reviews, and to improve computers' ability to understand sentiment.
+    <br>
+    <br>
+    Our system will analyze your responses on a few test sentences, and alert you in case you're doing the task incorrectly.
+    </p><br>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+<div class="slide" id="consent">
+<span id="consent-form" class="consent">
+<p>We invite you to participate in a research study on language production and comprehension. 
+Your experimenter will ask you to do a linguistic task such as reading sentences or words, 
+naming pictures or describing scenes, making up sentences of your own, or participating in a 
+simple language game. </p>
+<p>There are no risks or benefits of any kind involved in this study. </p>
+<p>You will be paid for your participation at the posted rate. </p>
+<p>If you have read this form and have decided to participate in this experiment, please 
+understand your participation is voluntary and you have the right to withdraw your consent or 
+discontinue participation at any time without penalty or loss of benefits to which you are 
+otherwise entitled. You have the right to refuse to do particular tasks. Your individual privacy 
+will be maintained in all published and written data resulting from the study.   You may print 
+this form for your records.</p>
+<p>CONTACT INFORMATION: </p>
+<p>If you have any questions, concerns or complaints about this research study, its procedures, 
+risks and benefits, you should contact the Protocol Director Meghan Sumner at (650)-725-9336. </p>
+<p>If you are not satisfied with how this study is being conducted, or if you have any concerns, 
+complaints, or general questions about the research or your rights as a participant, please 
+contact the Stanford Institutional Review Board (IRB) to speak to someone independent of the 
+research team at (650)-723-2480 or toll free at 1-866-680-2906. You can also write to the 
+Stanford IRB, Stanford University, 
+3000 El Camino Real, Five Palo Alto Square, 4th Floor, 
+Palo Alto, CA 94306 USA.</p>
+<p>You may print this contact information for your records.</p>
+<p>If you agree to participate, please proceed to the study tasks.</p>
+    <button onclick="_s.button()">Continue</button>
+</div>
+</span>
+</div>
+
+
+
+  <div class="slide" id="production">
+    <p class="name_said"></p>
+    <div>
+      <div id="score_div" style="float: left;width : 180px; border: 1px solid black;">
+        <p id="score_field" style="cursor: default;">  </p>
+        <span class="alien_production" id="alien_production">{{}}</span>
+      </div>
+      <div>
+        <table>
+          <tr><td id="object1_td">
+             <span class="object1" id="object1">{{}}</span>
+          </td><td id="object2_td">
+             <span class="object2" id="object2">{{}}</span>
+          </td></tr> <tr>
+           <td id="object3_td">
+             <span class="object3" id="object3">{{}}</span>
+          </td><td id="object4_td">
+             <span class="object4" id="object4">{{}}</span>
+          </td>
+         </tr> </table>
+      </div>
+   <br/>
+   <p>
+        <input type="text" id="production_input" size="40"  style="font-size: 20pt;"  ></input>
+   </p>
+    <button id="prod_continue_1" onclick="_s.button_3()">Submit</button>
+    <button id="prod_continue_2" onclick="_s.button_3()">Try again</button>
+    <button id="prod_continue_3" onclick="_s.button()">Skip</button>
+    <button id="prod_continue_4" onclick="_s.button()">Continue</button>
+    <p id="prod_feedback_p"><span id="prod_feedback">{{}}</span></p>
+  </div>
+</div>
+
+  <div class="slide" id="instructions8">
+  <p class="name_said"></p>
+
+    <h3>Quiz</h3>
+    <p>
+You will see a series of spaceships, with a sentence uttered by one of your tutors.
+For each sentence, you will see two possible continuations.
+</p>
+<p>
+Use the slider to indicate which option sounds better as a continuation.
+</p>
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+
+
+
+
+
+
+  <div class="slide" id="production_click">
+  <p class="name_said"></p>
+    <br>
+<div>
+      <div id="score_div_click" style="float: left;width : 180px; border: 1px solid black;">
+        <p id="score_field_click" style="cursor: default;">  </p>
+        <span class="alien_production" id="alien_production_click">{{}}</span>
+      </div>
+
+        <table style="float: left;">
+          <tr><td id="object1_td_click">
+             <span class="object1" id="object1_click">{{}}</span>
+          </td><td id="object2_td_click">
+             <span class="object2" id="object2_click">{{}}</span>
+          </td></tr> <tr>
+           <td id="object3_td_click">
+             <span class="object3" id="object3_click">{{}}</span>
+          </td><td id="object4_td_click">
+             <span class="object4" id="object4_click">{{}}</span>
+          </td>
+         </tr> </table>
+
+
+  <table>
+          <tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('the')" id="myimage_none" value="the" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('spaceship')" id="myimage_none" value="spaceship" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('ADJ1')" id="myimage_ADJ1" value="ADJ1" style="width: 150px;height:40px;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('ADJ2')" id="myimage_ADJ2" value="ADJ2" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('red')" id="myimage_none" value="red"  style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('green')" id="myimage_none" value="green" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+</tr><tr>
+          <td class="radio_centered" style="width: 150px;">  <input type="button" onclick="_s.button_1('blue')" id="myimage_none" value="blue" style="width: 150px;height:40px;;font-size: 200%; border: 0px solid white; background-color:white;cursor: pointer;"/>    </td>
+
+     </tr>
+
+  </table>
+</div>
+
+<br>
+
+<div>
+<div id="div_text1" style="float: left;width: 100px;height: 35px;margin: 1px;padding: 10px;border: 1px solid black;">
+  <p id="textfield1" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text2" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield2" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text3" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield3" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text4" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield4" width="88" height="31" style="cursor: default;">  </p>
+</div>
+<div id="div_text5" style="float: left;width: 100px;height: 35px;margin: 1;padding: 10px;border: 1px solid black;">
+  <p id="textfield5" width="88" height="31" style="cursor: default;">  </p>
+</div>
+</div>
+
+
+<br/>
+
+<br>
+<br>
+    <button id="prod_click_continue_0" onclick="_s.button_2()">Erase</button>
+    <button id="prod_click_continue_1" onclick="_s.button_3()">Submit</button>
+    <button id="prod_click_continue_2" onclick="_s.button_3()">Try again</button>
+    <button id="prod_click_continue_3" onclick="_s.button()">Skip</button>
+    <button id="prod_click_continue_4" onclick="_s.button()">Continue</button>
+    <p id="prod_click_feedback_p"><span id="prod_click_feedback">{{}}</span></p>
+
+  </div>
+
+
+<!-- ############################################# -->
+  <div class="slide" id="multi_slider_context">
+<br><span class="review">100 %</span>
+<br><br>
+
+  <span class="instr1">INSTRUCTIONS</span>
+
+  </p>
+
+
+    <button onclick="_s.button()">Save and try another possibility</button>
+    <button onclick="_s.nextSentence()">Save and go to next sentence</button>
+    <div class="err">Please change the sentence before continuing.</div>
+    <p>Bonus earned so far: <span class="bonus">BONUS</span></p>
+
+  </div>
+
+
+
+<!-- ############################################# -->
+  <div class="slide" id="example1">
+<br><span class="review">100 %</span>
+<br><br>
+
+  <span class="instr1">INSTRUCTIONS</span>
+
+  </p>
+
+
+    <button class="nextStep" onclick="_s.nextStep()">Next Step</button>
+    <br><br>
+    <button onclick="_s.button()">Save and try another possibility</button>
+    <button onclick="_s.nextSentence()">Save and go to next sentence</button>
+    <button onclick="_s.start()">I made a mistake, start over!</button>
+    <div class="err">Please follow the instructions before continuing. If you're stuck, you can press `I made a mistake, start over!'</div>
+
+  </div>
+
+
+
+  <div class="slide" id="example2">
+<br><span class="review">100 %</span>
+<br><br>
+
+  <span class="instr1">INSTRUCTIONS</span>
+
+  </p>
+
+
+    <button class="nextStep" onclick="_s.nextStep()">Next Step</button>
+    <br><br>
+    <button onclick="_s.button()">Save and try another possibility</button>
+    <button onclick="_s.nextSentence()">Save and go to next sentence</button>
+    <button onclick="_s.start()">I made a mistake, start over!</button>
+    <div class="err">Please follow the instructions before continuing. If you're stuck, you can press `I made a mistake, start over!'</div>
+
+  </div>
+
+
+
+
+  <div class="slide" id="motivation">
+  <p class="name_said"></p>
+  <br>
+  Our system has successfully analyzed your responses so far.
+  <br>
+  You're doing a good job!<br><br>
+  The system will continue to analyze your responses, and alert you in case there seems to be a problem.
+  <br><br>
+  Click `Continue' to continue!
+  <br>
+  <br>
+
+    <button onclick="_s.button()">Continue</button>
+  </div>
+
+
+
+
+
+
+  <div class="slide"  id="subj_info">
+    <div class="long_form">
+      <div class="subj_info_title">Additional information</div>
+      <p class="info">Answering these questions is optional, but will help us understand your answers.</p>
+<!--      <p>Note: We are posting a series of similar HITs. Please do not accept another HIT from this series!</p>-->
+      <p>Did you read the instructions and do you think you did the HIT correctly?</p>
+      <label><input type="radio"  name="assess" value="No"/>No</label>
+      <label><input type="radio"  name="assess" value="Yes"/>Yes</label>
+      <label><input type="radio"  name="assess" value="Confused"/>I was confused</label>
+
+      <p>Gender:
+        <select id="gender">
+          <label><option value=""/></label>
+          <label><option value="Male"/>Male</label>
+          <label><option value="Female"/>Female</label>
+          <label><option value="Other"/>Other</label>
+        </select>
+      </p>
+
+      <p>Age: <input type="text" id="age"/></p>
+
+<!--      <p>Level Of Education:
+        <select id="education">
+          <label><option value="-1"/></label>
+          <label><option value="0"/>Some High School</label>
+          <label><option value="1"/>Graduated High School</label>
+          <label><option value="2"/>Some College</label>
+          <label><option value="3"/>Graduated College</label>
+          <label><option value="4"/>Hold a higher degree</label>
+        </select>
+      </p>-->
+
+      <p>Native Language: <input type="text" id="language"/></p>
+      <label>(the language(s) spoken at home when you were a child)</label>
+
+<!--      <p>Are you color blind?</p>
+      <select id="colorblind">
+        <label><option value="-1"></option></label>
+        <label><option value="0">No</option></label>
+        <label><option value="1" >Yes</option></label>
+      </select>
+-->
+      <p>Did you enjoy the hit?</p>
+      <select id="enjoyment">
+        <label><option value="-1"></option></label>
+        <label><option value="0">Worse than the Average HIT</option></label>
+        <label><option value="1" >An Average HIT</option></label>
+        <label><option value="2">Better than average HIT</option></label>
+      </select>
+
+      <p>How much pay (in $) do you think is appropriate for this HIT?</p>
+      <input type="text" id="suggested_pay"/></p>
+
+      <p>We would be interested in any comments you have about this experiment. Please type them here:</p>
+      <textarea id="comments" rows="3" cols="50"></textarea>
+<!--      <p>Also, please feel free to share your experience on Turkopticon!</p>-->
+      <br/>
+      <button onclick="_s.submit()">Submit</button>
+    </div>
+  </div>
+
+  <div id="thanks" class="slide js" >
+    <p  class="big">Thanks for your time!</p>
+  </div>
+
+  <div class="progress">
+    <span>Progress:</span>
+    <div class="bar-wrapper">
+      <div class="bar" width="0%">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<!--<script src="https://uniqueturker.myleott.com/lib.js" type="text/javascript"></script>
+<script type="text/javascript"> // make sure that you load jquery before this block and then use the following code instead:
+ $(document).ready(function(){
+   var ut_id = "d4fec58a0b253533eb56194593823e4a";
+   if (UTWorkerLimitReached(ut_id)) {
+     $(".slide").hide();
+     $("body").html("You have already completed the maximum number of HITs allowed by this requester. Please click 'Return HIT' to avoid any impact on your approval rating.");
+}});
+</script>-->
+
+</html>
