@@ -4,11 +4,11 @@
 
 * randomly initialized LSTMs
 
-[code/learnability/output/lstm-init-s1.pdf]
+[code/learnability/output/lstm-init-s1.pdf](Results)
 
 * LSTM learnability 
 
-[code/learnability/output/learnability3_together.pdf]
+[code/learnability/output/learnability3_together.pdf](Results)
 
 * Transformer learnability (done after the paper was finished):
 
@@ -26,32 +26,32 @@
 
 * results across tasks for XLNet
 
-[code/analyze/joint_GLUE.pdf]
-[code/analyze/joint_Parsing.pdf]
-[code/analyze/joint_Syntax.pdf]
-[code/analyze/joint_textclas.pdf]
+[code/analyze/joint_GLUE.pdf](Results: GLUE)
+[code/analyze/joint_Parsing.pdf](Results: Parsing)
+[code/analyze/joint_Syntax.pdf](Results: Syntax)
+[code/analyze/joint_textclas.pdf](Results: text Classification)
 
 * results across tasks for u-PMLM (not in paper due to space limitations)
 
 * Sensitivity and length
 
-    \includegraphics[width=0.23\textwidth]{code/analyze/byLength_s1ensitivity_textclas_cola.pdf}
-    \includegraphics[width=0.23\textwidth]{code/analyze/byLength_s1ensitivity_textclas_glue.pdf}
+    [code/analyze/byLength_s1ensitivity_textclas_cola.pdf](Results: Text Classification and CoLA)
+    [code/analyze/byLength_s1ensitivity_textclas_glue.pdf](Results: By Task Group)
 
 * performance of BoE, LSTN, RoBERTa
 
 XLNet:
 
-    [code/analyze/s1ensitivity-accuracy-grid.pdf]
+    [code/analyze/s1ensitivity-accuracy-grid.pdf](Results)
         
     u-PMLM:
     
-    [code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf]
+    [code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf](Results)
 
 * per-input analysis
 
-[code/perExample/outputs/subspans_s1ensitivity_rev.pdf]
-[code/perExample/outputs/s1ensitivity_accuracy_roberta-cbow-lstm.pdf]
+[code/perExample/outputs/subspans_s1ensitivity_rev.pdf](Results: Sensitivity and Label Dispersion)
+[code/perExample/outputs/s1ensitivity_accuracy_roberta-cbow-lstm.pdf](Results: Sensitivity and Accuracy)
 
 * Role of task model
 
@@ -64,11 +64,11 @@ XLNet:
 ** Link to online experiment:
 ** Results:
 
-[experiments/100-rte/Submiterator-master/figures/rte_sst_sensitivities_expt1.pdf]
+[experiments/100-rte/Submiterator-master/figures/rte_sst_sensitivities_expt1.pdf](Results)
 
 * Experiment 2
 ** Code:
 ** Link to online experiment:
 ** Results:
-[experiments/102-rte/Submiterator-master/figures/sensitivity-changes-sst2-rte.pdf]
+[experiments/102-rte/Submiterator-master/figures/sensitivity-changes-sst2-rte.pdf](Results)
 
