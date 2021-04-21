@@ -53,12 +53,16 @@
 
 ### Experiment 1
 
-[RTE](experiments/100-rte), [SST-2](experiments/200-sst2), [SST-2](experiments/200b-sst2)
+Code: [RTE](experiments/100-rte), [SST-2](experiments/200-sst2), [SST-2](experiments/200b-sst2)
+
+Online Experiments: [RTE](https://stanford.edu/~mhahn2/experiments/Robustness-Low-Synergy-and-Cheap-Computation/experiments/100-rte/order-preference.html), [SST-2](https://stanford.edu/~mhahn2/experiments/Robustness-Low-Synergy-and-Cheap-Computation/experiments/200-sst2/order-preference.html), [SST-2](https://stanford.edu/~mhahn2/experiments/Robustness-Low-Synergy-and-Cheap-Computation/experiments/200b-sst2/order-preference.html)
 
 [Results](experiments/100-rte/Submiterator-master/figures/rte_sst_sensitivities_expt1.pdf)
 
 ### Experiment 2
-[RTE](experiments/102-rte), [SST-2](experiments/202-sst2)
+Code: [RTE](experiments/102-rte), [SST-2](experiments/202-sst2)
+
+Online Experiments: [RTE](https://stanford.edu/~mhahn2/experiments/Robustness-Low-Synergy-and-Cheap-Computation/experiments/102-rte/order-preference.html), [SST-2](https://stanford.edu/~mhahn2/experiments/Robustness-Low-Synergy-and-Cheap-Computation/experiments/202-sst2/order-preference.html)
 
 [Results](experiments/102-rte/Submiterator-master/figures/sensitivity-changes-sst2-rte.pdf)
 
