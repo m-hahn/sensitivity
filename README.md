@@ -14,10 +14,6 @@
 
 * creating RoBERTa predictions: see https://github.com/m-hahn/fairseq
 
-* creating BoE and LSTM predictions
-
-* creating GPT-2 predictions for Syntax tasks
-
 * results across tasks for XLNet
 
 [Results: GLUE](code/analyze/joint_GLUE.pdf)
