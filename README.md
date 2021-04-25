@@ -10,9 +10,7 @@
 
 ## Sensitivity of NLP Tasks (Section 4)
 
-* generating alternatives using XLNet: [Code](code/xlnet)
-
-* generating alternatives using u-PMLM: see https://github.com/m-hahn/PMLM
+* generating alternatives: [Code](code/xlnet)
 
 * creating RoBERTa predictions: see https://github.com/m-hahn/fairseq
 
@@ -34,20 +32,10 @@
 [Results: Text Classification and CoLA](code/analyze/byLength_s1ensitivity_textclas_cola.pdf)
 [Results: By Task Group](code/analyze/byLength_s1ensitivity_textclas_glue.pdf)
 
-* performance of BoE, LSTN, RoBERTa
-
-[XLNet](code/analyze/s1ensitivity-accuracy-grid.pdf)
-        
+* performance of BoE, LSTN, RoBERTa: [XLNet](code/analyze/s1ensitivity-accuracy-grid.pdf) and       
 [u-PMLM](code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf)
 
-* per-input analysis
-
-[Results: Sensitivity and Label Dispersion](code/perExample/outputs/subspans_s1ensitivity_rev.pdf)
-[Results: Sensitivity and Accuracy](code/perExample/outputs/s1ensitivity_accuracy_roberta-cbow-lstm.pdf)
-
-* Role of task model
-
-* Evaluating lower-bound approximation
+* per-input analysis: [Sensitivity and Label Dispersion](code/perExample/outputs/subspans_s1ensitivity_rev.pdf) and [Sensitivity and Accuracy](code/perExample/outputs/s1ensitivity_accuracy_roberta-cbow-lstm.pdf)
 
 ## Human Studies (Section 5)
 
