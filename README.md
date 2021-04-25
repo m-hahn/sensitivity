@@ -14,19 +14,9 @@
 
 * creating RoBERTa predictions: see https://github.com/m-hahn/fairseq
 
-* results across tasks for XLNet
+* results across tasks: [GLUE](code/analyze/joint_GLUE.pdf), [Parsing](code/analyze/joint_Parsing.pdf), [Syntax](code/analyze/joint_Syntax.pdf), [Text Classification](code/analyze/joint_textclas.pdf)
 
-[Results: GLUE](code/analyze/joint_GLUE.pdf)
-[Results: Parsing](code/analyze/joint_Parsing.pdf)
-[Results: Syntax](code/analyze/joint_Syntax.pdf)
-[Results: Text Classification](code/analyze/joint_textclas.pdf)
-
-* results across tasks for u-PMLM (not in paper due to space limitations)
-
-* Sensitivity and length
-
-[Results: Text Classification and CoLA](code/analyze/byLength_s1ensitivity_textclas_cola.pdf)
-[Results: By Task Group](code/analyze/byLength_s1ensitivity_textclas_glue.pdf)
+* Sensitivity and length: [Text Classification and CoLA](code/analyze/byLength_s1ensitivity_textclas_cola.pdf), and [By Task Group](code/analyze/byLength_s1ensitivity_textclas_glue.pdf)
 
 * performance of BoE, LSTN, RoBERTa: [XLNet](code/analyze/s1ensitivity-accuracy-grid.pdf) and       
 [u-PMLM](code/analyze/s1ensitivity-accuracy-grid-pmlm.pdf)
