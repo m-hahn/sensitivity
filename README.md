@@ -10,7 +10,7 @@
 
 ## Sensitivity of NLP Tasks (Section 4)
 
-* generating alternatives: [Code](code/xlnet)
+* generating alternatives: [Code for XLNet](code/xlnet), [Code for u-PMLM](https://github.com/m-hahn/PMLM)
 
 * creating RoBERTa predictions: see https://github.com/m-hahn/fairseq
 
